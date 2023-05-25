@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+f4fce4e67da49512715ea583544919d5 CMakeFiles/YourProjectName_autogen
+6c646329b3d07a6f24888396df44dbd5 YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp

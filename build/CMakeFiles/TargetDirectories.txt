@@ -1,0 +1,4 @@
+/Users/jianjia/GitProject/qt_project/build/CMakeFiles/YourProjectName.dir
+/Users/jianjia/GitProject/qt_project/build/CMakeFiles/edit_cache.dir
+/Users/jianjia/GitProject/qt_project/build/CMakeFiles/rebuild_cache.dir
+/Users/jianjia/GitProject/qt_project/build/CMakeFiles/YourProjectName_autogen.dir

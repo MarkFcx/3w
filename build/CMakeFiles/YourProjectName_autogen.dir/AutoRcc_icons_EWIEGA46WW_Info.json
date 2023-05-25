@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/jianjia/GitProject/qt_project/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/jianjia/GitProject/qt_project/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/jianjia/GitProject/qt_project",
+	"CMAKE_SOURCE_DIR" : "/Users/jianjia/GitProject/qt_project",
+	"INCLUDE_DIR" : "/Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_6_not.png",
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_1_current.png",
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_2_next.png",
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_3_not.png",
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_7_not.png",
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_4_not.png",
+		"/Users/jianjia/GitProject/qt_project/icon/measurementlabel_5_not.png"
+	],
+	"LOCK_FILE" : "/Users/jianjia/GitProject/qt_project/build/CMakeFiles/YourProjectName_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "/opt/homebrew/opt/qt@5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/jianjia/GitProject/qt_project/build/CMakeFiles/YourProjectName_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/jianjia/GitProject/qt_project/icons.qrc",
+	"VERBOSITY" : 0
+}

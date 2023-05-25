@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MeasurementPage</class>
+ <widget class="QWidget" name="MeasurementPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>462</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Measurement Page</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="TopFrame">
+     <property name="styleSheet">
+      <string notr="true">
+QLabel{
+    border-image: url(:/icon/measurementlabel_1_current.png);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_1">
+        <property name="text">
+         <string>通道测量</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>通道路由</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>响度增益</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>扬声器频响</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>分频配置</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>声场频响</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>声场自动均衡</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>人工调音</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>延时测量</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="microphoneButton">
+        <property name="text">
+         <string>麦克风icon</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="connectButton">
+        <property name="text">
+         <string>车机APP已连接</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="PreviousStepButton">
+        <property name="text">
+         <string>上一步</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="NextStepButton">
+        <property name="text">
+         <string>下一步</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="DownFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
