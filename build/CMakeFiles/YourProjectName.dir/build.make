@@ -208,10 +208,80 @@ CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianjia/GitProject/qt_project/widgets/LoudspeakerFrequencyResponse.cpp -o CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.s
 
+CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o: CMakeFiles/YourProjectName.dir/flags.make
+CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o: /Users/jianjia/GitProject/qt_project/widgets/qcustomplot.cpp
+CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o: CMakeFiles/YourProjectName.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o -MF CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o.d -o CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o -c /Users/jianjia/GitProject/qt_project/widgets/qcustomplot.cpp
+
+CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianjia/GitProject/qt_project/widgets/qcustomplot.cpp > CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.i
+
+CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianjia/GitProject/qt_project/widgets/qcustomplot.cpp -o CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.s
+
+CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o: CMakeFiles/YourProjectName.dir/flags.make
+CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o: /Users/jianjia/GitProject/qt_project/widgets/FrequencyDivisionConfiguration.cpp
+CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o: CMakeFiles/YourProjectName.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o -MF CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o.d -o CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o -c /Users/jianjia/GitProject/qt_project/widgets/FrequencyDivisionConfiguration.cpp
+
+CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianjia/GitProject/qt_project/widgets/FrequencyDivisionConfiguration.cpp > CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.i
+
+CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianjia/GitProject/qt_project/widgets/FrequencyDivisionConfiguration.cpp -o CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.s
+
+CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o: CMakeFiles/YourProjectName.dir/flags.make
+CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o: /Users/jianjia/GitProject/qt_project/widgets/FrequencyResponseOfSoundField.cpp
+CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o: CMakeFiles/YourProjectName.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o -MF CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o.d -o CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o -c /Users/jianjia/GitProject/qt_project/widgets/FrequencyResponseOfSoundField.cpp
+
+CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianjia/GitProject/qt_project/widgets/FrequencyResponseOfSoundField.cpp > CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.i
+
+CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianjia/GitProject/qt_project/widgets/FrequencyResponseOfSoundField.cpp -o CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.s
+
+CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o: CMakeFiles/YourProjectName.dir/flags.make
+CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o: /Users/jianjia/GitProject/qt_project/widgets/AutomaticSoundFieldEqualization.cpp
+CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o: CMakeFiles/YourProjectName.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o -MF CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o.d -o CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o -c /Users/jianjia/GitProject/qt_project/widgets/AutomaticSoundFieldEqualization.cpp
+
+CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianjia/GitProject/qt_project/widgets/AutomaticSoundFieldEqualization.cpp > CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.i
+
+CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianjia/GitProject/qt_project/widgets/AutomaticSoundFieldEqualization.cpp -o CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.s
+
+CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o: CMakeFiles/YourProjectName.dir/flags.make
+CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o: /Users/jianjia/GitProject/qt_project/widgets/ManualTuning.cpp
+CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o: CMakeFiles/YourProjectName.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o -MF CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o.d -o CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o -c /Users/jianjia/GitProject/qt_project/widgets/ManualTuning.cpp
+
+CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jianjia/GitProject/qt_project/widgets/ManualTuning.cpp > CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.i
+
+CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jianjia/GitProject/qt_project/widgets/ManualTuning.cpp -o CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.s
+
 CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o: CMakeFiles/YourProjectName.dir/flags.make
 CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o: YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp
 CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o: CMakeFiles/YourProjectName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o -MF CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o.d -o CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o -c /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp
 
 CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.i: cmake_force
@@ -233,6 +303,11 @@ YourProjectName_OBJECTS = \
 "CMakeFiles/YourProjectName.dir/widgets/ChannelRouting.cpp.o" \
 "CMakeFiles/YourProjectName.dir/widgets/LoudnessGain.cpp.o" \
 "CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.o" \
+"CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o" \
+"CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o" \
+"CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o" \
+"CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o" \
+"CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o" \
 "CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o"
 
 # External object files for target YourProjectName
@@ -247,14 +322,20 @@ YourProjectName: CMakeFiles/YourProjectName.dir/widgets/ChannelMeasurement.cpp.o
 YourProjectName: CMakeFiles/YourProjectName.dir/widgets/ChannelRouting.cpp.o
 YourProjectName: CMakeFiles/YourProjectName.dir/widgets/LoudnessGain.cpp.o
 YourProjectName: CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.o
+YourProjectName: CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o
+YourProjectName: CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o
+YourProjectName: CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o
+YourProjectName: CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o
+YourProjectName: CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o
 YourProjectName: CMakeFiles/YourProjectName.dir/YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o
 YourProjectName: CMakeFiles/YourProjectName.dir/build.make
 YourProjectName: /opt/homebrew/opt/qt@5/lib/QtCharts.framework/QtCharts
+YourProjectName: /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/QtPrintSupport
 YourProjectName: /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/QtWidgets
 YourProjectName: /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui
 YourProjectName: /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore
 YourProjectName: CMakeFiles/YourProjectName.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable YourProjectName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable YourProjectName"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/YourProjectName.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

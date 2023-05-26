@@ -938,6 +938,42 @@ CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qvxymodelmapper.h \
   /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qxylegendmarker.h \
   /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qtchartsversion.h \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QColor \
+  /Users/jianjia/GitProject/qt_project/widgets/qcustomplot.h \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QPointer \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QSharedPointer \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPainterPath \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPaintEvent \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QMouseEvent \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QWheelEvent \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QVector \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QDateTime \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QMultiMap \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QFlags \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QStack \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QCache \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QtNumeric \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/QtPrintSupport \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/QtPrintSupportDepends \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qtprintsupportglobal.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qtprintsupport-config.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qabstractprintdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qpagesetupdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintengine.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprinter.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprinterinfo.h \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QPair \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintpreviewdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintpreviewwidget.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qtprintsupportversion.h \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QElapsedTimer \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QTimeZone \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/include/ui/ui_loudspeakerfrequencyresponse.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QComboBox \
@@ -947,4 +983,54 @@ CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QSpacerItem \
-  /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QVBoxLayout
+  /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_xlocale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/__wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_char.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_short.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_gid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ino_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_key_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_def.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h

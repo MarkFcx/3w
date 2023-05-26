@@ -473,10 +473,16 @@ CMakeFiles/YourProjectName.dir/YourProjectName_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/EWIEGA46WW/moc_personalpage.cpp \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/EWIEGA46WW/../../../personalpage.h \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_AutomaticSoundFieldEqualization.cpp \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/AutomaticSoundFieldEqualization.h \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_ChannelMeasurement.cpp \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/ChannelMeasurement.h \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_ChannelRouting.cpp \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/ChannelRouting.h \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_FrequencyDivisionConfiguration.cpp \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/FrequencyDivisionConfiguration.h \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_FrequencyResponseOfSoundField.cpp \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/FrequencyResponseOfSoundField.h \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_LoudnessGain.cpp \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/LoudnessGain.h \
   /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_LoudspeakerFrequencyResponse.cpp \
@@ -951,4 +957,44 @@ CMakeFiles/YourProjectName.dir/YourProjectName_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qvpiemodelmapper.h \
   /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qvxymodelmapper.h \
   /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qxylegendmarker.h \
-  /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qtchartsversion.h
+  /opt/homebrew/opt/qt@5/lib/QtCharts.framework/Headers/qtchartsversion.h \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QColor \
+  /Users/jianjia/GitProject/qt_project/widgets/qcustomplot.h \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QPointer \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QSharedPointer \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPainterPath \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPaintEvent \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QMouseEvent \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QWheelEvent \
+  /opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QVector \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QDateTime \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QMultiMap \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QFlags \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QStack \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QCache \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QtNumeric \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/QtPrintSupport \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/QtPrintSupportDepends \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qtprintsupportglobal.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qtprintsupport-config.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qabstractprintdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qpagesetupdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintengine.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprinter.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprinterinfo.h \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QPair \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintpreviewdialog.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qprintpreviewwidget.h \
+  /opt/homebrew/opt/qt@5/lib/QtPrintSupport.framework/Headers/qtprintsupportversion.h \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QElapsedTimer \
+  /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QTimeZone \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_ManualTuning.cpp \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/ManualTuning.h \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/moc_qcustomplot.cpp \
+  /Users/jianjia/GitProject/qt_project/build/YourProjectName_autogen/IMAN36LHMA/../../../widgets/qcustomplot.h

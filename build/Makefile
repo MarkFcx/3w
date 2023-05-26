@@ -286,6 +286,30 @@ personalpage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/personalpage.cpp.s
 .PHONY : personalpage.cpp.s
 
+widgets/AutomaticSoundFieldEqualization.o: widgets/AutomaticSoundFieldEqualization.cpp.o
+.PHONY : widgets/AutomaticSoundFieldEqualization.o
+
+# target to build an object file
+widgets/AutomaticSoundFieldEqualization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o
+.PHONY : widgets/AutomaticSoundFieldEqualization.cpp.o
+
+widgets/AutomaticSoundFieldEqualization.i: widgets/AutomaticSoundFieldEqualization.cpp.i
+.PHONY : widgets/AutomaticSoundFieldEqualization.i
+
+# target to preprocess a source file
+widgets/AutomaticSoundFieldEqualization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.i
+.PHONY : widgets/AutomaticSoundFieldEqualization.cpp.i
+
+widgets/AutomaticSoundFieldEqualization.s: widgets/AutomaticSoundFieldEqualization.cpp.s
+.PHONY : widgets/AutomaticSoundFieldEqualization.s
+
+# target to generate assembly for a file
+widgets/AutomaticSoundFieldEqualization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.s
+.PHONY : widgets/AutomaticSoundFieldEqualization.cpp.s
+
 widgets/ChannelMeasurement.o: widgets/ChannelMeasurement.cpp.o
 .PHONY : widgets/ChannelMeasurement.o
 
@@ -333,6 +357,54 @@ widgets/ChannelRouting.s: widgets/ChannelRouting.cpp.s
 widgets/ChannelRouting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/ChannelRouting.cpp.s
 .PHONY : widgets/ChannelRouting.cpp.s
+
+widgets/FrequencyDivisionConfiguration.o: widgets/FrequencyDivisionConfiguration.cpp.o
+.PHONY : widgets/FrequencyDivisionConfiguration.o
+
+# target to build an object file
+widgets/FrequencyDivisionConfiguration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o
+.PHONY : widgets/FrequencyDivisionConfiguration.cpp.o
+
+widgets/FrequencyDivisionConfiguration.i: widgets/FrequencyDivisionConfiguration.cpp.i
+.PHONY : widgets/FrequencyDivisionConfiguration.i
+
+# target to preprocess a source file
+widgets/FrequencyDivisionConfiguration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.i
+.PHONY : widgets/FrequencyDivisionConfiguration.cpp.i
+
+widgets/FrequencyDivisionConfiguration.s: widgets/FrequencyDivisionConfiguration.cpp.s
+.PHONY : widgets/FrequencyDivisionConfiguration.s
+
+# target to generate assembly for a file
+widgets/FrequencyDivisionConfiguration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.s
+.PHONY : widgets/FrequencyDivisionConfiguration.cpp.s
+
+widgets/FrequencyResponseOfSoundField.o: widgets/FrequencyResponseOfSoundField.cpp.o
+.PHONY : widgets/FrequencyResponseOfSoundField.o
+
+# target to build an object file
+widgets/FrequencyResponseOfSoundField.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o
+.PHONY : widgets/FrequencyResponseOfSoundField.cpp.o
+
+widgets/FrequencyResponseOfSoundField.i: widgets/FrequencyResponseOfSoundField.cpp.i
+.PHONY : widgets/FrequencyResponseOfSoundField.i
+
+# target to preprocess a source file
+widgets/FrequencyResponseOfSoundField.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.i
+.PHONY : widgets/FrequencyResponseOfSoundField.cpp.i
+
+widgets/FrequencyResponseOfSoundField.s: widgets/FrequencyResponseOfSoundField.cpp.s
+.PHONY : widgets/FrequencyResponseOfSoundField.s
+
+# target to generate assembly for a file
+widgets/FrequencyResponseOfSoundField.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.s
+.PHONY : widgets/FrequencyResponseOfSoundField.cpp.s
 
 widgets/LoudnessGain.o: widgets/LoudnessGain.cpp.o
 .PHONY : widgets/LoudnessGain.o
@@ -382,6 +454,54 @@ widgets/LoudspeakerFrequencyResponse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.s
 .PHONY : widgets/LoudspeakerFrequencyResponse.cpp.s
 
+widgets/ManualTuning.o: widgets/ManualTuning.cpp.o
+.PHONY : widgets/ManualTuning.o
+
+# target to build an object file
+widgets/ManualTuning.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o
+.PHONY : widgets/ManualTuning.cpp.o
+
+widgets/ManualTuning.i: widgets/ManualTuning.cpp.i
+.PHONY : widgets/ManualTuning.i
+
+# target to preprocess a source file
+widgets/ManualTuning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.i
+.PHONY : widgets/ManualTuning.cpp.i
+
+widgets/ManualTuning.s: widgets/ManualTuning.cpp.s
+.PHONY : widgets/ManualTuning.s
+
+# target to generate assembly for a file
+widgets/ManualTuning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.s
+.PHONY : widgets/ManualTuning.cpp.s
+
+widgets/qcustomplot.o: widgets/qcustomplot.cpp.o
+.PHONY : widgets/qcustomplot.o
+
+# target to build an object file
+widgets/qcustomplot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o
+.PHONY : widgets/qcustomplot.cpp.o
+
+widgets/qcustomplot.i: widgets/qcustomplot.cpp.i
+.PHONY : widgets/qcustomplot.i
+
+# target to preprocess a source file
+widgets/qcustomplot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.i
+.PHONY : widgets/qcustomplot.cpp.i
+
+widgets/qcustomplot.s: widgets/qcustomplot.cpp.s
+.PHONY : widgets/qcustomplot.s
+
+# target to generate assembly for a file
+widgets/qcustomplot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.s
+.PHONY : widgets/qcustomplot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -410,18 +530,33 @@ help:
 	@echo "... personalpage.o"
 	@echo "... personalpage.i"
 	@echo "... personalpage.s"
+	@echo "... widgets/AutomaticSoundFieldEqualization.o"
+	@echo "... widgets/AutomaticSoundFieldEqualization.i"
+	@echo "... widgets/AutomaticSoundFieldEqualization.s"
 	@echo "... widgets/ChannelMeasurement.o"
 	@echo "... widgets/ChannelMeasurement.i"
 	@echo "... widgets/ChannelMeasurement.s"
 	@echo "... widgets/ChannelRouting.o"
 	@echo "... widgets/ChannelRouting.i"
 	@echo "... widgets/ChannelRouting.s"
+	@echo "... widgets/FrequencyDivisionConfiguration.o"
+	@echo "... widgets/FrequencyDivisionConfiguration.i"
+	@echo "... widgets/FrequencyDivisionConfiguration.s"
+	@echo "... widgets/FrequencyResponseOfSoundField.o"
+	@echo "... widgets/FrequencyResponseOfSoundField.i"
+	@echo "... widgets/FrequencyResponseOfSoundField.s"
 	@echo "... widgets/LoudnessGain.o"
 	@echo "... widgets/LoudnessGain.i"
 	@echo "... widgets/LoudnessGain.s"
 	@echo "... widgets/LoudspeakerFrequencyResponse.o"
 	@echo "... widgets/LoudspeakerFrequencyResponse.i"
 	@echo "... widgets/LoudspeakerFrequencyResponse.s"
+	@echo "... widgets/ManualTuning.o"
+	@echo "... widgets/ManualTuning.i"
+	@echo "... widgets/ManualTuning.s"
+	@echo "... widgets/qcustomplot.o"
+	@echo "... widgets/qcustomplot.i"
+	@echo "... widgets/qcustomplot.s"
 .PHONY : help
 
 

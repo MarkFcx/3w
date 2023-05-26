@@ -3,6 +3,10 @@
 
 #include <QWidget>
 #include <QtCharts>
+#include <QPen>
+#include <QBrush>
+#include <QColor>
+#include <qcustomplot.h>
 
 namespace Ui {
 class LoudspeakerFrequencyResponse;
@@ -16,6 +20,7 @@ public:
     explicit LoudspeakerFrequencyResponse(QWidget *parent = nullptr);
     ~LoudspeakerFrequencyResponse();
     QChart* createChart();
+    void drawCurve(QCustomPlot* customPlot, int index, const QColor& color, double peakX, double peakY);
 
 private:
     Ui::LoudspeakerFrequencyResponse *ui;

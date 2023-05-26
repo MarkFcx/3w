@@ -7,7 +7,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-find_package(Qt5 COMPONENTS Widgets Charts REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Charts PrintSupport REQUIRED)
 
 include_directories(
     ...
@@ -31,8 +31,19 @@ add_executable(YourProjectName
     widgets/LoudnessGain.h
     widgets/LoudspeakerFrequencyResponse.cpp
     widgets/LoudspeakerFrequencyResponse.h
+    widgets/qcustomplot.cpp
+    widgets/qcustomplot.h
 
+    widgets/FrequencyDivisionConfiguration.cpp
+    widgets/FrequencyDivisionConfiguration.h
+    widgets/FrequencyResponseOfSoundField.cpp
+    widgets/FrequencyResponseOfSoundField.h
+    widgets/AutomaticSoundFieldEqualization.cpp
+    widgets/AutomaticSoundFieldEqualization.h
+    widgets/ManualTuning.cpp
+    widgets/ManualTuning.h
+    
     icons.qrc
 )
 
-target_link_libraries(YourProjectName Qt5::Widgets Qt5::Charts)
+target_link_libraries(YourProjectName Qt5::Widgets Qt5::Charts Qt5::PrintSupport)

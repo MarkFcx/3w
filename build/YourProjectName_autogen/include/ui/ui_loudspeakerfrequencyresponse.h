@@ -37,8 +37,42 @@ public:
     QGridLayout *gridLayout;
     QFrame *frame_3;
     QFrame *frame_5;
+    QHBoxLayout *horizontalLayout_11;
+    QFrame *frame_15;
+    QVBoxLayout *verticalLayout_3;
     QLabel *label_12;
     QLabel *label_13;
+    QLabel *label_14;
+    QFrame *frame_16;
+    QVBoxLayout *verticalLayout_4;
+    QLabel *label_15;
+    QLabel *label_16;
+    QLabel *label_17;
+    QFrame *frame_17;
+    QVBoxLayout *verticalLayout_5;
+    QLabel *label_18;
+    QLabel *label_19;
+    QLabel *label_20;
+    QFrame *frame_18;
+    QVBoxLayout *verticalLayout_6;
+    QLabel *label_21;
+    QLabel *label_22;
+    QLabel *label_23;
+    QFrame *frame_19;
+    QVBoxLayout *verticalLayout_7;
+    QLabel *label_24;
+    QLabel *label_25;
+    QLabel *label_26;
+    QFrame *frame_20;
+    QVBoxLayout *verticalLayout_8;
+    QLabel *label_27;
+    QLabel *label_28;
+    QLabel *label_29;
+    QFrame *frame_21;
+    QVBoxLayout *verticalLayout_9;
+    QLabel *label_30;
+    QLabel *label_31;
+    QLabel *label_32;
     QFrame *frame_4;
     QVBoxLayout *verticalLayout_2;
     QFrame *frame_6;
@@ -143,12 +177,197 @@ public:
         frame_5->setObjectName(QString::fromUtf8("frame_5"));
         frame_5->setFrameShape(QFrame::StyledPanel);
         frame_5->setFrameShadow(QFrame::Raised);
-        label_12 = new QLabel(frame_5);
+        horizontalLayout_11 = new QHBoxLayout(frame_5);
+        horizontalLayout_11->setObjectName(QString::fromUtf8("horizontalLayout_11"));
+        frame_15 = new QFrame(frame_5);
+        frame_15->setObjectName(QString::fromUtf8("frame_15"));
+        frame_15->setFrameShape(QFrame::StyledPanel);
+        frame_15->setFrameShadow(QFrame::Raised);
+        verticalLayout_3 = new QVBoxLayout(frame_15);
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
+        label_12 = new QLabel(frame_15);
         label_12->setObjectName(QString::fromUtf8("label_12"));
-        label_12->setGeometry(QRect(30, 20, 58, 16));
-        label_13 = new QLabel(frame_5);
+        label_12->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_3->addWidget(label_12);
+
+        label_13 = new QLabel(frame_15);
         label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(30, 50, 58, 16));
+        label_13->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_3->addWidget(label_13);
+
+        label_14 = new QLabel(frame_15);
+        label_14->setObjectName(QString::fromUtf8("label_14"));
+        label_14->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_3->addWidget(label_14);
+
+
+        horizontalLayout_11->addWidget(frame_15);
+
+        frame_16 = new QFrame(frame_5);
+        frame_16->setObjectName(QString::fromUtf8("frame_16"));
+        frame_16->setFrameShape(QFrame::StyledPanel);
+        frame_16->setFrameShadow(QFrame::Raised);
+        verticalLayout_4 = new QVBoxLayout(frame_16);
+        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
+        label_15 = new QLabel(frame_16);
+        label_15->setObjectName(QString::fromUtf8("label_15"));
+        label_15->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_4->addWidget(label_15);
+
+        label_16 = new QLabel(frame_16);
+        label_16->setObjectName(QString::fromUtf8("label_16"));
+        label_16->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_4->addWidget(label_16);
+
+        label_17 = new QLabel(frame_16);
+        label_17->setObjectName(QString::fromUtf8("label_17"));
+        label_17->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_4->addWidget(label_17);
+
+
+        horizontalLayout_11->addWidget(frame_16);
+
+        frame_17 = new QFrame(frame_5);
+        frame_17->setObjectName(QString::fromUtf8("frame_17"));
+        frame_17->setFrameShape(QFrame::StyledPanel);
+        frame_17->setFrameShadow(QFrame::Raised);
+        verticalLayout_5 = new QVBoxLayout(frame_17);
+        verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
+        label_18 = new QLabel(frame_17);
+        label_18->setObjectName(QString::fromUtf8("label_18"));
+        label_18->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_5->addWidget(label_18);
+
+        label_19 = new QLabel(frame_17);
+        label_19->setObjectName(QString::fromUtf8("label_19"));
+        label_19->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_5->addWidget(label_19);
+
+        label_20 = new QLabel(frame_17);
+        label_20->setObjectName(QString::fromUtf8("label_20"));
+        label_20->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_5->addWidget(label_20);
+
+
+        horizontalLayout_11->addWidget(frame_17);
+
+        frame_18 = new QFrame(frame_5);
+        frame_18->setObjectName(QString::fromUtf8("frame_18"));
+        frame_18->setFrameShape(QFrame::StyledPanel);
+        frame_18->setFrameShadow(QFrame::Raised);
+        verticalLayout_6 = new QVBoxLayout(frame_18);
+        verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
+        label_21 = new QLabel(frame_18);
+        label_21->setObjectName(QString::fromUtf8("label_21"));
+        label_21->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_6->addWidget(label_21);
+
+        label_22 = new QLabel(frame_18);
+        label_22->setObjectName(QString::fromUtf8("label_22"));
+        label_22->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_6->addWidget(label_22);
+
+        label_23 = new QLabel(frame_18);
+        label_23->setObjectName(QString::fromUtf8("label_23"));
+        label_23->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_6->addWidget(label_23);
+
+
+        horizontalLayout_11->addWidget(frame_18);
+
+        frame_19 = new QFrame(frame_5);
+        frame_19->setObjectName(QString::fromUtf8("frame_19"));
+        frame_19->setFrameShape(QFrame::StyledPanel);
+        frame_19->setFrameShadow(QFrame::Raised);
+        verticalLayout_7 = new QVBoxLayout(frame_19);
+        verticalLayout_7->setObjectName(QString::fromUtf8("verticalLayout_7"));
+        label_24 = new QLabel(frame_19);
+        label_24->setObjectName(QString::fromUtf8("label_24"));
+        label_24->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_7->addWidget(label_24);
+
+        label_25 = new QLabel(frame_19);
+        label_25->setObjectName(QString::fromUtf8("label_25"));
+        label_25->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_7->addWidget(label_25);
+
+        label_26 = new QLabel(frame_19);
+        label_26->setObjectName(QString::fromUtf8("label_26"));
+        label_26->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_7->addWidget(label_26);
+
+
+        horizontalLayout_11->addWidget(frame_19);
+
+        frame_20 = new QFrame(frame_5);
+        frame_20->setObjectName(QString::fromUtf8("frame_20"));
+        frame_20->setFrameShape(QFrame::StyledPanel);
+        frame_20->setFrameShadow(QFrame::Raised);
+        verticalLayout_8 = new QVBoxLayout(frame_20);
+        verticalLayout_8->setObjectName(QString::fromUtf8("verticalLayout_8"));
+        label_27 = new QLabel(frame_20);
+        label_27->setObjectName(QString::fromUtf8("label_27"));
+        label_27->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_8->addWidget(label_27);
+
+        label_28 = new QLabel(frame_20);
+        label_28->setObjectName(QString::fromUtf8("label_28"));
+        label_28->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_8->addWidget(label_28);
+
+        label_29 = new QLabel(frame_20);
+        label_29->setObjectName(QString::fromUtf8("label_29"));
+        label_29->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_8->addWidget(label_29);
+
+
+        horizontalLayout_11->addWidget(frame_20);
+
+        frame_21 = new QFrame(frame_5);
+        frame_21->setObjectName(QString::fromUtf8("frame_21"));
+        frame_21->setFrameShape(QFrame::StyledPanel);
+        frame_21->setFrameShadow(QFrame::Raised);
+        verticalLayout_9 = new QVBoxLayout(frame_21);
+        verticalLayout_9->setObjectName(QString::fromUtf8("verticalLayout_9"));
+        label_30 = new QLabel(frame_21);
+        label_30->setObjectName(QString::fromUtf8("label_30"));
+        label_30->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_9->addWidget(label_30);
+
+        label_31 = new QLabel(frame_21);
+        label_31->setObjectName(QString::fromUtf8("label_31"));
+        label_31->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_9->addWidget(label_31);
+
+        label_32 = new QLabel(frame_21);
+        label_32->setObjectName(QString::fromUtf8("label_32"));
+        label_32->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+
+        verticalLayout_9->addWidget(label_32);
+
+
+        horizontalLayout_11->addWidget(frame_21);
+
 
         gridLayout->addWidget(frame_5, 1, 0, 1, 1);
 
@@ -418,8 +637,27 @@ public:
         label_2->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "\346\265\213\350\257\225\345\243\260\346\272\220", nullptr));
         comboBox->setItemText(0, QCoreApplication::translate("LoudspeakerFrequencyResponse", "\347\262\211\345\231\252", nullptr));
 
-        label_12->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "TextLabel", nullptr));
-        label_13->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "TextLabel", nullptr));
+        label_12->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "FREQ.Hz:", nullptr));
+        label_13->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "GAIN dB:", nullptr));
+        label_14->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "Q:", nullptr));
+        label_15->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "1040 Hz", nullptr));
+        label_16->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.0 dB/Oct", nullptr));
+        label_17->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.71 Hz", nullptr));
+        label_18->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "1040 Hz", nullptr));
+        label_19->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.0 dB/Oct", nullptr));
+        label_20->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.71 Hz", nullptr));
+        label_21->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "1040 Hz", nullptr));
+        label_22->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.0 dB/Oct", nullptr));
+        label_23->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.71 Hz", nullptr));
+        label_24->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "1040 Hz", nullptr));
+        label_25->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.0 dB/Oct", nullptr));
+        label_26->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.71 Hz", nullptr));
+        label_27->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "1040 Hz", nullptr));
+        label_28->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.0 dB/Oct", nullptr));
+        label_29->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.71 Hz", nullptr));
+        label_30->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "1040 Hz", nullptr));
+        label_31->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.0 dB/Oct", nullptr));
+        label_32->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "0.71 Hz", nullptr));
         label_3->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "CH\357\274\2321/L", nullptr));
         pushButton->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "Bypass", nullptr));
         pushButton_2->setText(QCoreApplication::translate("LoudspeakerFrequencyResponse", "\346\265\213\350\257\225", nullptr));

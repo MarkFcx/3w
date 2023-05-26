@@ -14,10 +14,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jianjia/GitProject/qt_project/mainwindow.cpp" "CMakeFiles/YourProjectName.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/mainwindow.cpp.o.d"
   "/Users/jianjia/GitProject/qt_project/measurementpage.cpp" "CMakeFiles/YourProjectName.dir/measurementpage.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/measurementpage.cpp.o.d"
   "/Users/jianjia/GitProject/qt_project/personalpage.cpp" "CMakeFiles/YourProjectName.dir/personalpage.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/personalpage.cpp.o.d"
+  "/Users/jianjia/GitProject/qt_project/widgets/AutomaticSoundFieldEqualization.cpp" "CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/AutomaticSoundFieldEqualization.cpp.o.d"
   "/Users/jianjia/GitProject/qt_project/widgets/ChannelMeasurement.cpp" "CMakeFiles/YourProjectName.dir/widgets/ChannelMeasurement.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/ChannelMeasurement.cpp.o.d"
   "/Users/jianjia/GitProject/qt_project/widgets/ChannelRouting.cpp" "CMakeFiles/YourProjectName.dir/widgets/ChannelRouting.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/ChannelRouting.cpp.o.d"
+  "/Users/jianjia/GitProject/qt_project/widgets/FrequencyDivisionConfiguration.cpp" "CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/FrequencyDivisionConfiguration.cpp.o.d"
+  "/Users/jianjia/GitProject/qt_project/widgets/FrequencyResponseOfSoundField.cpp" "CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/FrequencyResponseOfSoundField.cpp.o.d"
   "/Users/jianjia/GitProject/qt_project/widgets/LoudnessGain.cpp" "CMakeFiles/YourProjectName.dir/widgets/LoudnessGain.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/LoudnessGain.cpp.o.d"
   "/Users/jianjia/GitProject/qt_project/widgets/LoudspeakerFrequencyResponse.cpp" "CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/LoudspeakerFrequencyResponse.cpp.o.d"
+  "/Users/jianjia/GitProject/qt_project/widgets/ManualTuning.cpp" "CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.o.d"
+  "/Users/jianjia/GitProject/qt_project/widgets/qcustomplot.cpp" "CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o" "gcc" "CMakeFiles/YourProjectName.dir/widgets/qcustomplot.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

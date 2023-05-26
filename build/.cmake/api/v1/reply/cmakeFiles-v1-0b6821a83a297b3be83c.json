@@ -309,6 +309,18 @@
 			"path" : "/opt/homebrew/opt/qt@5/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/opt/qt@5/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/opt/qt@5/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/opt/qt@5/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCocoaPrinterSupportPlugin.cmake"
+		},
+		{
 			"path" : "icons.qrc"
 		}
 	],

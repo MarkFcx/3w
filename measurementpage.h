@@ -7,6 +7,11 @@ class ChannelMeasurement;
 class ChannelRouting;
 class LoudnessGain;
 class LoudspeakerFrequencyResponse;
+class FrequencyDivisionConfiguration;
+class FrequencyResponseOfSoundField;
+class AutomaticSoundFieldEqualization;
+class ManualTuning;
+// class DelayMeasurement;
 
 namespace Ui {
 class MeasurementPage;
@@ -34,6 +39,12 @@ private:
     ChannelRouting* channelRouting;
     LoudnessGain* loudnessGain;
     LoudspeakerFrequencyResponse* loudspeakerFrequencyResponse;
+    FrequencyDivisionConfiguration* frequencyDivisionConfiguration;
+    FrequencyResponseOfSoundField* frequencyResponseOfSoundField;
+    AutomaticSoundFieldEqualization* automaticSoundFieldEqualization;
+    ManualTuning* manualTuning;
+    // DelayMeasurement* delayMeasurement;
+    
 };
 
 #endif // MEASUREMENTPAGE_H
