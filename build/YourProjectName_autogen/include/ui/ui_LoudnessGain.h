@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'LoudnessGain.ui'
 **
-** Created by: Qt User Interface Compiler version 5.15.8
+** Created by: Qt User Interface Compiler version 6.5.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -17,7 +17,9 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QScrollArea>
 #include <QtWidgets/QSlider>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -32,553 +34,596 @@ public:
     QHBoxLayout *horizontalLayout;
     QFrame *frame_2;
     QGridLayout *gridLayout_9;
-    QLabel *label_2;
+    QFrame *frame_6;
+    QHBoxLayout *horizontalLayout_4;
+    QPushButton *total_output_play_button;
+    QFrame *frame_4;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *total_output_icon_label;
+    QLineEdit *total_output_volume_lineEdit;
+    QLabel *text_label;
+    QFrame *frame_5;
+    QHBoxLayout *horizontalLayout_8;
+    QFrame *frame_11;
+    QGridLayout *gridLayout;
     QLabel *label_3;
-    QLineEdit *lineEdit;
-    QSlider *verticalSlider;
-    QPushButton *pushButton;
-    QFrame *frame_3;
-    QGridLayout *gridLayout_8;
     QLabel *label_4;
     QLabel *label_5;
-    QLineEdit *lineEdit_2;
-    QSlider *verticalSlider_2;
-    QPushButton *pushButton_2;
-    QFrame *frame_4;
-    QGridLayout *gridLayout_7;
     QLabel *label_6;
-    QLabel *label_7;
-    QLineEdit *lineEdit_3;
-    QSlider *verticalSlider_3;
-    QPushButton *pushButton_3;
-    QFrame *frame_5;
-    QGridLayout *gridLayout_6;
-    QLabel *label_8;
     QLabel *label_9;
-    QLineEdit *lineEdit_4;
-    QSlider *verticalSlider_4;
-    QPushButton *pushButton_4;
-    QFrame *frame_6;
-    QGridLayout *gridLayout_5;
+    QFrame *line_2;
+    QLabel *label_7;
+    QLabel *label_8;
     QLabel *label_10;
+    QFrame *line;
     QLabel *label_11;
-    QLineEdit *lineEdit_5;
-    QSlider *verticalSlider_5;
-    QPushButton *pushButton_5;
-    QFrame *frame_7;
-    QGridLayout *gridLayout_4;
     QLabel *label_12;
-    QLabel *label_13;
-    QLineEdit *lineEdit_6;
-    QSlider *verticalSlider_6;
-    QPushButton *pushButton_6;
-    QFrame *frame_8;
-    QGridLayout *gridLayout_3;
-    QLabel *label_14;
-    QLabel *label_15;
-    QLineEdit *lineEdit_7;
-    QSlider *verticalSlider_7;
-    QPushButton *pushButton_7;
-    QFrame *frame_9;
-    QGridLayout *gridLayout_2;
-    QLabel *label_16;
-    QLabel *label_17;
-    QLineEdit *lineEdit_8;
-    QSlider *verticalSlider_8;
-    QPushButton *pushButton_8;
+    QFrame *line_3;
+    QFrame *line_4;
+    QFrame *line_5;
+    QFrame *line_6;
+    QFrame *line_7;
+    QFrame *line_8;
+    QFrame *line_9;
+    QFrame *line_10;
     QFrame *frame_10;
-    QGridLayout *gridLayout;
-    QLabel *label_18;
-    QLabel *label_19;
-    QLineEdit *lineEdit_9;
-    QSlider *verticalSlider_9;
-    QPushButton *pushButton_9;
-    QFrame *frame_11;
-    QGridLayout *gridLayout_12;
-    QLabel *label_20;
-    QLabel *label_21;
-    QLineEdit *lineEdit_10;
-    QSlider *verticalSlider_10;
-    QPushButton *pushButton_10;
-    QFrame *frame_12;
-    QGridLayout *gridLayout_11;
-    QLabel *label_22;
-    QLabel *label_23;
-    QLineEdit *lineEdit_11;
-    QSlider *verticalSlider_11;
-    QPushButton *pushButton_11;
-    QFrame *frame_13;
+    QHBoxLayout *horizontalLayout_3;
+    QSlider *total_output_slider;
+    QSpacerItem *horizontalSpacer;
+    QFrame *frame_3;
     QGridLayout *gridLayout_10;
-    QLabel *label_24;
-    QLabel *label_25;
-    QLineEdit *lineEdit_12;
-    QSlider *verticalSlider_12;
-    QPushButton *pushButton_12;
+    QLineEdit *total_input_volume_lineEdit;
+    QLabel *text_label_2;
+    QFrame *frame_7;
+    QHBoxLayout *horizontalLayout_5;
+    QLabel *total_input_icon_label;
+    QFrame *frame_8;
+    QHBoxLayout *horizontalLayout_6;
+    QLabel *label_2;
+    QFrame *frame_9;
+    QHBoxLayout *horizontalLayout_7;
+    QSlider *TotalInputGainDBSlider;
+    QSlider *TotalInputLoudnessSlider;
+    QScrollArea *LoudnessGainScrollArea;
+    QWidget *LoudnessGainScrollAreaWidget;
+    QHBoxLayout *horizontalLayout_9;
+    QHBoxLayout *LoudnessGainScrollAreaWidgetLayout;
 
     void setupUi(QWidget *LoudnessGain)
     {
         if (LoudnessGain->objectName().isEmpty())
-            LoudnessGain->setObjectName(QString::fromUtf8("LoudnessGain"));
-        LoudnessGain->resize(1138, 571);
+            LoudnessGain->setObjectName("LoudnessGain");
+        LoudnessGain->resize(1093, 560);
         verticalLayout = new QVBoxLayout(LoudnessGain);
         verticalLayout->setSpacing(0);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(10, 0, 10, 0);
+        verticalLayout->setObjectName("verticalLayout");
+        verticalLayout->setContentsMargins(10, 0, 10, 12);
         label = new QLabel(LoudnessGain);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName("label");
+        label->setStyleSheet(QString::fromUtf8("QLabel\n"
+"{\n"
+"	font-family: 'PingFang SC';\n"
+"	font-style: normal;\n"
+"	font-weight: 500;\n"
+"	font-size: 22px;\n"
+"	line-height: 30px;\n"
+"	color: #565656;\n"
+"}"));
 
         verticalLayout->addWidget(label);
 
         frame = new QFrame(LoudnessGain);
-        frame->setObjectName(QString::fromUtf8("frame"));
-        frame->setFrameShape(QFrame::StyledPanel);
-        frame->setFrameShadow(QFrame::Raised);
+        frame->setObjectName("frame");
+        frame->setFrameShape(QFrame::NoFrame);
+        frame->setFrameShadow(QFrame::Plain);
         horizontalLayout = new QHBoxLayout(frame);
         horizontalLayout->setSpacing(0);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName("horizontalLayout");
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
         frame_2 = new QFrame(frame);
-        frame_2->setObjectName(QString::fromUtf8("frame_2"));
+        frame_2->setObjectName("frame_2");
+        frame_2->setMaximumSize(QSize(134, 16777215));
         frame_2->setLayoutDirection(Qt::LeftToRight);
+        frame_2->setStyleSheet(QString::fromUtf8("QLabel#total_output_icon_label {\n"
+"	min-width: 60px;\n"
+"	max-width: 60px;\n"
+"	max-height: 60px;\n"
+"	min-height: 60px;\n"
+"    border-image: url(:/icon/horn_icon.png);\n"
+"}\n"
+"\n"
+"QLabel#text_label {\n"
+"	width: 77px;\n"
+"	height: 28px;\n"
+"\n"
+"	font-family: 'PingFang SC';\n"
+"	font-style: normal;\n"
+"	font-weight: 400;\n"
+"	font-size: 12px;\n"
+"	line-height: 14px;\n"
+"}\n"
+"\n"
+"QPushButton#total_output_play_button\n"
+"{\n"
+"	border-image: url(:/icon/play_icon.svg);\n"
+"}\n"
+"\n"
+"QPushButton::checked#total_output_play_button\n"
+"{\n"
+"	border-image: url(:/icon/speaker_play_stop_icon.svg);\n"
+"}\n"
+"\n"
+"QLineEdit#total_output_volume_lineEdit\n"
+"{\n"
+"	height: 24px;  \n"
+"	border: 2px solid rgb(216, 216, 216);\n"
+"	border-radius: 3px;	\n"
+"	background: #ffffff; \n"
+"	color: #636468;\n"
+"}\n"
+"\n"
+"QSlider::groove:vertical {    \n"
+"	border-style: solid;    \n"
+"	background: rgb(0,0,0); \n"
+"}\n"
+"\n"
+"QSlider::add-page:vertical {    \n"
+"	border: 6px solid #ffffff;\n"
+"	background: rgb(115, 133, 244)"
+                        ";    \n"
+"}\n"
+"\n"
+"QSlider::sub-page:vertical {    \n"
+"	border: 6px solid #ffffff;    \n"
+"    background: #D6D6D6;    \n"
+"}\n"
+"\n"
+"QSlider::handle:vertical {    \n"
+"	background: rgb(117, 170, 255);    \n"
+"	width: 20px;    \n"
+"	height: 20px;  \n"
+"    border-radius: 3px;	\n"
+"	border: 2px solid rgb(117, 170, 255);\n"
+"}\n"
+"\n"
+"QSlider::handle::hover:vertical { \n"
+"	background: rgb(117, 170, 255);    \n"
+"	width: 20px;    \n"
+"	height: 20px;  \n"
+"    border-radius: 3px;	\n"
+"	border: 2px solid rgb(117, 170, 255);\n"
+"}\n"
+"\n"
+"QFrame#frame_2\n"
+"{\n"
+"	border: 2px solid #D8D8D8;\n"
+"	border-radius: 2px;\n"
+"	background: rgb(255, 255, 255);  \n"
+"}"));
         frame_2->setFrameShape(QFrame::StyledPanel);
         frame_2->setFrameShadow(QFrame::Raised);
         gridLayout_9 = new QGridLayout(frame_2);
-        gridLayout_9->setObjectName(QString::fromUtf8("gridLayout_9"));
-        label_2 = new QLabel(frame_2);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        gridLayout_9->setObjectName("gridLayout_9");
+        frame_6 = new QFrame(frame_2);
+        frame_6->setObjectName("frame_6");
+        frame_6->setFrameShape(QFrame::NoFrame);
+        frame_6->setFrameShadow(QFrame::Plain);
+        horizontalLayout_4 = new QHBoxLayout(frame_6);
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        horizontalLayout_4->setContentsMargins(-1, 0, -1, 0);
+        total_output_play_button = new QPushButton(frame_6);
+        total_output_play_button->setObjectName("total_output_play_button");
+        total_output_play_button->setMinimumSize(QSize(40, 40));
+        total_output_play_button->setMaximumSize(QSize(40, 40));
+        total_output_play_button->setFocusPolicy(Qt::StrongFocus);
+        total_output_play_button->setCheckable(true);
 
-        gridLayout_9->addWidget(label_2, 0, 0, 1, 1);
+        horizontalLayout_4->addWidget(total_output_play_button);
 
-        label_3 = new QLabel(frame_2);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setWordWrap(true);
 
-        gridLayout_9->addWidget(label_3, 1, 0, 1, 1);
+        gridLayout_9->addWidget(frame_6, 5, 0, 1, 1);
 
-        lineEdit = new QLineEdit(frame_2);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        frame_4 = new QFrame(frame_2);
+        frame_4->setObjectName("frame_4");
+        frame_4->setFrameShape(QFrame::NoFrame);
+        frame_4->setFrameShadow(QFrame::Plain);
+        horizontalLayout_2 = new QHBoxLayout(frame_4);
+        horizontalLayout_2->setObjectName("horizontalLayout_2");
+        horizontalLayout_2->setContentsMargins(-1, 0, -1, 0);
+        total_output_icon_label = new QLabel(frame_4);
+        total_output_icon_label->setObjectName("total_output_icon_label");
 
-        gridLayout_9->addWidget(lineEdit, 2, 0, 1, 1);
+        horizontalLayout_2->addWidget(total_output_icon_label);
 
-        verticalSlider = new QSlider(frame_2);
-        verticalSlider->setObjectName(QString::fromUtf8("verticalSlider"));
-        verticalSlider->setOrientation(Qt::Vertical);
 
-        gridLayout_9->addWidget(verticalSlider, 3, 0, 1, 1);
+        gridLayout_9->addWidget(frame_4, 0, 0, 1, 1);
 
-        pushButton = new QPushButton(frame_2);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        total_output_volume_lineEdit = new QLineEdit(frame_2);
+        total_output_volume_lineEdit->setObjectName("total_output_volume_lineEdit");
 
-        gridLayout_9->addWidget(pushButton, 4, 0, 1, 1);
+        gridLayout_9->addWidget(total_output_volume_lineEdit, 2, 0, 1, 1);
+
+        text_label = new QLabel(frame_2);
+        text_label->setObjectName("text_label");
+        text_label->setAlignment(Qt::AlignCenter);
+        text_label->setWordWrap(true);
+
+        gridLayout_9->addWidget(text_label, 1, 0, 1, 1);
+
+        frame_5 = new QFrame(frame_2);
+        frame_5->setObjectName("frame_5");
+        frame_5->setFrameShape(QFrame::NoFrame);
+        frame_5->setFrameShadow(QFrame::Plain);
+        horizontalLayout_8 = new QHBoxLayout(frame_5);
+        horizontalLayout_8->setSpacing(0);
+        horizontalLayout_8->setObjectName("horizontalLayout_8");
+        horizontalLayout_8->setContentsMargins(0, 0, 0, 0);
+        frame_11 = new QFrame(frame_5);
+        frame_11->setObjectName("frame_11");
+        frame_11->setFrameShape(QFrame::NoFrame);
+        frame_11->setFrameShadow(QFrame::Plain);
+        gridLayout = new QGridLayout(frame_11);
+        gridLayout->setObjectName("gridLayout");
+        gridLayout->setHorizontalSpacing(0);
+        gridLayout->setContentsMargins(0, 0, 0, 0);
+        label_3 = new QLabel(frame_11);
+        label_3->setObjectName("label_3");
+
+        gridLayout->addWidget(label_3, 2, 0, 1, 1);
+
+        label_4 = new QLabel(frame_11);
+        label_4->setObjectName("label_4");
+
+        gridLayout->addWidget(label_4, 3, 0, 1, 1);
+
+        label_5 = new QLabel(frame_11);
+        label_5->setObjectName("label_5");
+
+        gridLayout->addWidget(label_5, 4, 0, 1, 1);
+
+        label_6 = new QLabel(frame_11);
+        label_6->setObjectName("label_6");
+
+        gridLayout->addWidget(label_6, 1, 0, 1, 1);
+
+        label_9 = new QLabel(frame_11);
+        label_9->setObjectName("label_9");
+
+        gridLayout->addWidget(label_9, 8, 0, 1, 1);
+
+        line_2 = new QFrame(frame_11);
+        line_2->setObjectName("line_2");
+        line_2->setFrameShape(QFrame::HLine);
+        line_2->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_2, 1, 1, 1, 1);
+
+        label_7 = new QLabel(frame_11);
+        label_7->setObjectName("label_7");
+
+        gridLayout->addWidget(label_7, 6, 0, 1, 1);
+
+        label_8 = new QLabel(frame_11);
+        label_8->setObjectName("label_8");
+
+        gridLayout->addWidget(label_8, 5, 0, 1, 1);
+
+        label_10 = new QLabel(frame_11);
+        label_10->setObjectName("label_10");
+
+        gridLayout->addWidget(label_10, 7, 0, 1, 1);
+
+        line = new QFrame(frame_11);
+        line->setObjectName("line");
+        line->setMinimumSize(QSize(10, 0));
+        line->setFrameShape(QFrame::HLine);
+        line->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line, 0, 1, 1, 1);
+
+        label_11 = new QLabel(frame_11);
+        label_11->setObjectName("label_11");
+
+        gridLayout->addWidget(label_11, 0, 0, 1, 1);
+
+        label_12 = new QLabel(frame_11);
+        label_12->setObjectName("label_12");
+
+        gridLayout->addWidget(label_12, 9, 0, 1, 1);
+
+        line_3 = new QFrame(frame_11);
+        line_3->setObjectName("line_3");
+        line_3->setFrameShape(QFrame::HLine);
+        line_3->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_3, 2, 1, 1, 1);
+
+        line_4 = new QFrame(frame_11);
+        line_4->setObjectName("line_4");
+        line_4->setFrameShape(QFrame::HLine);
+        line_4->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_4, 3, 1, 1, 1);
+
+        line_5 = new QFrame(frame_11);
+        line_5->setObjectName("line_5");
+        line_5->setFrameShape(QFrame::HLine);
+        line_5->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_5, 4, 1, 1, 1);
+
+        line_6 = new QFrame(frame_11);
+        line_6->setObjectName("line_6");
+        line_6->setFrameShape(QFrame::HLine);
+        line_6->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_6, 5, 1, 1, 1);
+
+        line_7 = new QFrame(frame_11);
+        line_7->setObjectName("line_7");
+        line_7->setFrameShape(QFrame::HLine);
+        line_7->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_7, 6, 1, 1, 1);
+
+        line_8 = new QFrame(frame_11);
+        line_8->setObjectName("line_8");
+        line_8->setFrameShape(QFrame::HLine);
+        line_8->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_8, 7, 1, 1, 1);
+
+        line_9 = new QFrame(frame_11);
+        line_9->setObjectName("line_9");
+        line_9->setFrameShape(QFrame::HLine);
+        line_9->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_9, 8, 1, 1, 1);
+
+        line_10 = new QFrame(frame_11);
+        line_10->setObjectName("line_10");
+        line_10->setFrameShape(QFrame::HLine);
+        line_10->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_10, 9, 1, 1, 1);
+
+
+        horizontalLayout_8->addWidget(frame_11);
+
+        frame_10 = new QFrame(frame_5);
+        frame_10->setObjectName("frame_10");
+        frame_10->setFrameShape(QFrame::NoFrame);
+        frame_10->setFrameShadow(QFrame::Plain);
+        horizontalLayout_3 = new QHBoxLayout(frame_10);
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
+        total_output_slider = new QSlider(frame_10);
+        total_output_slider->setObjectName("total_output_slider");
+        total_output_slider->setMinimum(-96);
+        total_output_slider->setMaximum(12);
+        total_output_slider->setOrientation(Qt::Vertical);
+        total_output_slider->setTickPosition(QSlider::NoTicks);
+        total_output_slider->setTickInterval(6);
+
+        horizontalLayout_3->addWidget(total_output_slider);
+
+
+        horizontalLayout_8->addWidget(frame_10);
+
+        horizontalSpacer = new QSpacerItem(31, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_8->addItem(horizontalSpacer);
+
+
+        gridLayout_9->addWidget(frame_5, 3, 0, 1, 1);
 
 
         horizontalLayout->addWidget(frame_2);
 
         frame_3 = new QFrame(frame);
-        frame_3->setObjectName(QString::fromUtf8("frame_3"));
+        frame_3->setObjectName("frame_3");
+        frame_3->setMaximumSize(QSize(134, 16777215));
         frame_3->setLayoutDirection(Qt::LeftToRight);
+        frame_3->setStyleSheet(QString::fromUtf8("QLabel#total_input_icon_label {\n"
+"	min-width: 60px;\n"
+"	max-width: 60px;\n"
+"	max-height: 60px;\n"
+"	min-height: 60px;\n"
+"    border-image: url(:/icon/microphone_icon_2.png);\n"
+"}\n"
+"\n"
+"QLabel#text_label_2 {\n"
+"	width: 77px;\n"
+"	height: 28px;\n"
+"\n"
+"	font-family: 'PingFang SC';\n"
+"	font-style: normal;\n"
+"	font-weight: 400;\n"
+"	font-size: 12px;\n"
+"	line-height: 14px;\n"
+"}\n"
+"\n"
+"QPushButton#total_input_play_button\n"
+"{\n"
+"	background: #ffffff; \n"
+"}\n"
+"\n"
+"QLineEdit#total_input_volume_lineEdit\n"
+"{\n"
+"	height: 24px;  \n"
+"	border: 2px solid rgb(216, 216, 216);\n"
+"	border-radius: 3px;	\n"
+"	background: #ffffff; \n"
+"	color: #636468;\n"
+"}\n"
+"\n"
+"QFrame#frame_3\n"
+"{\n"
+"	border: 2px solid #D8D8D8;\n"
+"	border-radius: 2px;\n"
+"	background: rgb(255, 255, 255);  \n"
+"}"));
         frame_3->setFrameShape(QFrame::StyledPanel);
         frame_3->setFrameShadow(QFrame::Raised);
-        gridLayout_8 = new QGridLayout(frame_3);
-        gridLayout_8->setObjectName(QString::fromUtf8("gridLayout_8"));
-        label_4 = new QLabel(frame_3);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        gridLayout_10 = new QGridLayout(frame_3);
+        gridLayout_10->setObjectName("gridLayout_10");
+        total_input_volume_lineEdit = new QLineEdit(frame_3);
+        total_input_volume_lineEdit->setObjectName("total_input_volume_lineEdit");
 
-        gridLayout_8->addWidget(label_4, 0, 0, 1, 1);
+        gridLayout_10->addWidget(total_input_volume_lineEdit, 2, 0, 1, 1);
 
-        label_5 = new QLabel(frame_3);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setWordWrap(true);
+        text_label_2 = new QLabel(frame_3);
+        text_label_2->setObjectName("text_label_2");
+        text_label_2->setAlignment(Qt::AlignCenter);
+        text_label_2->setWordWrap(true);
 
-        gridLayout_8->addWidget(label_5, 1, 0, 1, 1);
+        gridLayout_10->addWidget(text_label_2, 1, 0, 1, 1);
 
-        lineEdit_2 = new QLineEdit(frame_3);
-        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        frame_7 = new QFrame(frame_3);
+        frame_7->setObjectName("frame_7");
+        frame_7->setFrameShape(QFrame::NoFrame);
+        frame_7->setFrameShadow(QFrame::Plain);
+        horizontalLayout_5 = new QHBoxLayout(frame_7);
+        horizontalLayout_5->setObjectName("horizontalLayout_5");
+        horizontalLayout_5->setContentsMargins(-1, 0, -1, 0);
+        total_input_icon_label = new QLabel(frame_7);
+        total_input_icon_label->setObjectName("total_input_icon_label");
 
-        gridLayout_8->addWidget(lineEdit_2, 2, 0, 1, 1);
+        horizontalLayout_5->addWidget(total_input_icon_label);
 
-        verticalSlider_2 = new QSlider(frame_3);
-        verticalSlider_2->setObjectName(QString::fromUtf8("verticalSlider_2"));
-        verticalSlider_2->setOrientation(Qt::Vertical);
 
-        gridLayout_8->addWidget(verticalSlider_2, 3, 0, 1, 1);
+        gridLayout_10->addWidget(frame_7, 0, 0, 1, 1);
 
-        pushButton_2 = new QPushButton(frame_3);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        frame_8 = new QFrame(frame_3);
+        frame_8->setObjectName("frame_8");
+        frame_8->setFrameShape(QFrame::NoFrame);
+        frame_8->setFrameShadow(QFrame::Plain);
+        horizontalLayout_6 = new QHBoxLayout(frame_8);
+        horizontalLayout_6->setObjectName("horizontalLayout_6");
+        horizontalLayout_6->setContentsMargins(-1, 0, -1, 0);
+        label_2 = new QLabel(frame_8);
+        label_2->setObjectName("label_2");
+        label_2->setMinimumSize(QSize(40, 40));
+        label_2->setMaximumSize(QSize(40, 40));
 
-        gridLayout_8->addWidget(pushButton_2, 4, 0, 1, 1);
+        horizontalLayout_6->addWidget(label_2);
+
+
+        gridLayout_10->addWidget(frame_8, 4, 0, 1, 1);
+
+        frame_9 = new QFrame(frame_3);
+        frame_9->setObjectName("frame_9");
+        frame_9->setFrameShape(QFrame::NoFrame);
+        frame_9->setFrameShadow(QFrame::Plain);
+        horizontalLayout_7 = new QHBoxLayout(frame_9);
+        horizontalLayout_7->setObjectName("horizontalLayout_7");
+        horizontalLayout_7->setContentsMargins(-1, 0, -1, 0);
+        TotalInputGainDBSlider = new QSlider(frame_9);
+        TotalInputGainDBSlider->setObjectName("TotalInputGainDBSlider");
+        TotalInputGainDBSlider->setStyleSheet(QString::fromUtf8("QSlider::groove:vertical {    \n"
+"	border-style: solid;    \n"
+"	background: rgb(0,0,0); \n"
+"}\n"
+"\n"
+"QSlider::add-page:vertical {    \n"
+"	border: 6px solid #ffffff;\n"
+"	background: rgb(115, 133, 244);    \n"
+"}\n"
+"\n"
+"QSlider::sub-page:vertical {    \n"
+"	border: 6px solid #ffffff;    \n"
+"    background: #D6D6D6;    \n"
+"}\n"
+"\n"
+"QSlider::handle:vertical {    \n"
+"	background: rgb(117, 170, 255);    \n"
+"	width: 20px;    \n"
+"	height: 20px;  \n"
+"    border-radius: 3px;	\n"
+"	border: 2px solid rgb(117, 170, 255);\n"
+"}\n"
+"\n"
+"QSlider::handle::hover:vertical { \n"
+"	background: rgb(117, 170, 255);    \n"
+"	width: 20px;    \n"
+"	height: 20px;  \n"
+"    border-radius: 3px;	\n"
+"	border: 2px solid rgb(117, 170, 255);\n"
+"}"));
+        TotalInputGainDBSlider->setMaximum(54);
+        TotalInputGainDBSlider->setOrientation(Qt::Vertical);
+        TotalInputGainDBSlider->setTickPosition(QSlider::NoTicks);
+        TotalInputGainDBSlider->setTickInterval(6);
+
+        horizontalLayout_7->addWidget(TotalInputGainDBSlider);
+
+        TotalInputLoudnessSlider = new QSlider(frame_9);
+        TotalInputLoudnessSlider->setObjectName("TotalInputLoudnessSlider");
+        TotalInputLoudnessSlider->setEnabled(false);
+        TotalInputLoudnessSlider->setMouseTracking(true);
+        TotalInputLoudnessSlider->setStyleSheet(QString::fromUtf8("QSlider::groove:vertical {    \n"
+"	border: 5px solid #242424;\n"
+"\n"
+"	background: rgb(0,0,0); \n"
+"}\n"
+"\n"
+"QSlider::add-page:vertical {    \n"
+"	border: 5px solid #ffffff;\n"
+"	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 255, 0, 255), stop:0.05 rgba(0, 255, 73, 255), stop:0.36 rgba(0, 255, 0, 255), stop:0.60199 rgba(206, 206, 0, 253), stop:0.711443 rgba(196, 194, 0, 255), stop:0.791045 rgba(215, 217, 0, 255), stop:0.86 rgba(212, 215, 0, 255), stop:0.935323 rgba(239, 236, 55, 255));    \n"
+"}\n"
+"\n"
+"QSlider::sub-page:vertical {    \n"
+"	border: 5px solid #ffffff;\n"
+"    background: #565656;    \n"
+"\n"
+"}\n"
+"\n"
+"QSlider::handle:vertical {    \n"
+"	background: #565656;    \n"
+"	border: 5px solid #565656;\n"
+"}\n"
+"\n"
+"QSlider::handle::hover:vertical { \n"
+"	background: #565656;    \n"
+"	border: 5px solid #565656;\n"
+"}"));
+        TotalInputLoudnessSlider->setMaximum(54);
+        TotalInputLoudnessSlider->setValue(50);
+        TotalInputLoudnessSlider->setOrientation(Qt::Vertical);
+
+        horizontalLayout_7->addWidget(TotalInputLoudnessSlider);
+
+
+        gridLayout_10->addWidget(frame_9, 3, 0, 1, 1);
 
 
         horizontalLayout->addWidget(frame_3);
 
-        frame_4 = new QFrame(frame);
-        frame_4->setObjectName(QString::fromUtf8("frame_4"));
-        frame_4->setLayoutDirection(Qt::LeftToRight);
-        frame_4->setFrameShape(QFrame::StyledPanel);
-        frame_4->setFrameShadow(QFrame::Raised);
-        gridLayout_7 = new QGridLayout(frame_4);
-        gridLayout_7->setObjectName(QString::fromUtf8("gridLayout_7"));
-        label_6 = new QLabel(frame_4);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-
-        gridLayout_7->addWidget(label_6, 0, 0, 1, 1);
-
-        label_7 = new QLabel(frame_4);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setWordWrap(true);
-
-        gridLayout_7->addWidget(label_7, 1, 0, 1, 1);
-
-        lineEdit_3 = new QLineEdit(frame_4);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
-
-        gridLayout_7->addWidget(lineEdit_3, 2, 0, 1, 1);
-
-        verticalSlider_3 = new QSlider(frame_4);
-        verticalSlider_3->setObjectName(QString::fromUtf8("verticalSlider_3"));
-        verticalSlider_3->setOrientation(Qt::Vertical);
-
-        gridLayout_7->addWidget(verticalSlider_3, 3, 0, 1, 1);
-
-        pushButton_3 = new QPushButton(frame_4);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-
-        gridLayout_7->addWidget(pushButton_3, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_4);
-
-        frame_5 = new QFrame(frame);
-        frame_5->setObjectName(QString::fromUtf8("frame_5"));
-        frame_5->setLayoutDirection(Qt::LeftToRight);
-        frame_5->setFrameShape(QFrame::StyledPanel);
-        frame_5->setFrameShadow(QFrame::Raised);
-        gridLayout_6 = new QGridLayout(frame_5);
-        gridLayout_6->setObjectName(QString::fromUtf8("gridLayout_6"));
-        label_8 = new QLabel(frame_5);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
-
-        gridLayout_6->addWidget(label_8, 0, 0, 1, 1);
-
-        label_9 = new QLabel(frame_5);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
-        label_9->setWordWrap(true);
-
-        gridLayout_6->addWidget(label_9, 1, 0, 1, 1);
-
-        lineEdit_4 = new QLineEdit(frame_5);
-        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
-
-        gridLayout_6->addWidget(lineEdit_4, 2, 0, 1, 1);
-
-        verticalSlider_4 = new QSlider(frame_5);
-        verticalSlider_4->setObjectName(QString::fromUtf8("verticalSlider_4"));
-        verticalSlider_4->setOrientation(Qt::Vertical);
-
-        gridLayout_6->addWidget(verticalSlider_4, 3, 0, 1, 1);
-
-        pushButton_4 = new QPushButton(frame_5);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-
-        gridLayout_6->addWidget(pushButton_4, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_5);
-
-        frame_6 = new QFrame(frame);
-        frame_6->setObjectName(QString::fromUtf8("frame_6"));
-        frame_6->setLayoutDirection(Qt::LeftToRight);
-        frame_6->setFrameShape(QFrame::StyledPanel);
-        frame_6->setFrameShadow(QFrame::Raised);
-        gridLayout_5 = new QGridLayout(frame_6);
-        gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
-        label_10 = new QLabel(frame_6);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
-
-        gridLayout_5->addWidget(label_10, 0, 0, 1, 1);
-
-        label_11 = new QLabel(frame_6);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setWordWrap(true);
-
-        gridLayout_5->addWidget(label_11, 1, 0, 1, 1);
-
-        lineEdit_5 = new QLineEdit(frame_6);
-        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
-
-        gridLayout_5->addWidget(lineEdit_5, 2, 0, 1, 1);
-
-        verticalSlider_5 = new QSlider(frame_6);
-        verticalSlider_5->setObjectName(QString::fromUtf8("verticalSlider_5"));
-        verticalSlider_5->setOrientation(Qt::Vertical);
-
-        gridLayout_5->addWidget(verticalSlider_5, 3, 0, 1, 1);
-
-        pushButton_5 = new QPushButton(frame_6);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-
-        gridLayout_5->addWidget(pushButton_5, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_6);
-
-        frame_7 = new QFrame(frame);
-        frame_7->setObjectName(QString::fromUtf8("frame_7"));
-        frame_7->setLayoutDirection(Qt::LeftToRight);
-        frame_7->setFrameShape(QFrame::StyledPanel);
-        frame_7->setFrameShadow(QFrame::Raised);
-        gridLayout_4 = new QGridLayout(frame_7);
-        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
-        label_12 = new QLabel(frame_7);
-        label_12->setObjectName(QString::fromUtf8("label_12"));
-
-        gridLayout_4->addWidget(label_12, 0, 0, 1, 1);
-
-        label_13 = new QLabel(frame_7);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setWordWrap(true);
-
-        gridLayout_4->addWidget(label_13, 1, 0, 1, 1);
-
-        lineEdit_6 = new QLineEdit(frame_7);
-        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
-
-        gridLayout_4->addWidget(lineEdit_6, 2, 0, 1, 1);
-
-        verticalSlider_6 = new QSlider(frame_7);
-        verticalSlider_6->setObjectName(QString::fromUtf8("verticalSlider_6"));
-        verticalSlider_6->setOrientation(Qt::Vertical);
-
-        gridLayout_4->addWidget(verticalSlider_6, 3, 0, 1, 1);
-
-        pushButton_6 = new QPushButton(frame_7);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-
-        gridLayout_4->addWidget(pushButton_6, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_7);
-
-        frame_8 = new QFrame(frame);
-        frame_8->setObjectName(QString::fromUtf8("frame_8"));
-        frame_8->setLayoutDirection(Qt::LeftToRight);
-        frame_8->setFrameShape(QFrame::StyledPanel);
-        frame_8->setFrameShadow(QFrame::Raised);
-        gridLayout_3 = new QGridLayout(frame_8);
-        gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
-        label_14 = new QLabel(frame_8);
-        label_14->setObjectName(QString::fromUtf8("label_14"));
-
-        gridLayout_3->addWidget(label_14, 0, 0, 1, 1);
-
-        label_15 = new QLabel(frame_8);
-        label_15->setObjectName(QString::fromUtf8("label_15"));
-        label_15->setWordWrap(true);
-
-        gridLayout_3->addWidget(label_15, 1, 0, 1, 1);
-
-        lineEdit_7 = new QLineEdit(frame_8);
-        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
-
-        gridLayout_3->addWidget(lineEdit_7, 2, 0, 1, 1);
-
-        verticalSlider_7 = new QSlider(frame_8);
-        verticalSlider_7->setObjectName(QString::fromUtf8("verticalSlider_7"));
-        verticalSlider_7->setOrientation(Qt::Vertical);
-
-        gridLayout_3->addWidget(verticalSlider_7, 3, 0, 1, 1);
-
-        pushButton_7 = new QPushButton(frame_8);
-        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
-
-        gridLayout_3->addWidget(pushButton_7, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_8);
-
-        frame_9 = new QFrame(frame);
-        frame_9->setObjectName(QString::fromUtf8("frame_9"));
-        frame_9->setLayoutDirection(Qt::LeftToRight);
-        frame_9->setFrameShape(QFrame::StyledPanel);
-        frame_9->setFrameShadow(QFrame::Raised);
-        gridLayout_2 = new QGridLayout(frame_9);
-        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        label_16 = new QLabel(frame_9);
-        label_16->setObjectName(QString::fromUtf8("label_16"));
-
-        gridLayout_2->addWidget(label_16, 0, 0, 1, 1);
-
-        label_17 = new QLabel(frame_9);
-        label_17->setObjectName(QString::fromUtf8("label_17"));
-        label_17->setWordWrap(true);
-
-        gridLayout_2->addWidget(label_17, 1, 0, 1, 1);
-
-        lineEdit_8 = new QLineEdit(frame_9);
-        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
-
-        gridLayout_2->addWidget(lineEdit_8, 2, 0, 1, 1);
-
-        verticalSlider_8 = new QSlider(frame_9);
-        verticalSlider_8->setObjectName(QString::fromUtf8("verticalSlider_8"));
-        verticalSlider_8->setOrientation(Qt::Vertical);
-
-        gridLayout_2->addWidget(verticalSlider_8, 3, 0, 1, 1);
-
-        pushButton_8 = new QPushButton(frame_9);
-        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
-
-        gridLayout_2->addWidget(pushButton_8, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_9);
-
-        frame_10 = new QFrame(frame);
-        frame_10->setObjectName(QString::fromUtf8("frame_10"));
-        frame_10->setLayoutDirection(Qt::LeftToRight);
-        frame_10->setFrameShape(QFrame::StyledPanel);
-        frame_10->setFrameShadow(QFrame::Raised);
-        gridLayout = new QGridLayout(frame_10);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        label_18 = new QLabel(frame_10);
-        label_18->setObjectName(QString::fromUtf8("label_18"));
-
-        gridLayout->addWidget(label_18, 0, 0, 1, 1);
-
-        label_19 = new QLabel(frame_10);
-        label_19->setObjectName(QString::fromUtf8("label_19"));
-        label_19->setWordWrap(true);
-
-        gridLayout->addWidget(label_19, 1, 0, 1, 1);
-
-        lineEdit_9 = new QLineEdit(frame_10);
-        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
-
-        gridLayout->addWidget(lineEdit_9, 2, 0, 1, 1);
-
-        verticalSlider_9 = new QSlider(frame_10);
-        verticalSlider_9->setObjectName(QString::fromUtf8("verticalSlider_9"));
-        verticalSlider_9->setOrientation(Qt::Vertical);
-
-        gridLayout->addWidget(verticalSlider_9, 3, 0, 1, 1);
-
-        pushButton_9 = new QPushButton(frame_10);
-        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
-
-        gridLayout->addWidget(pushButton_9, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_10);
-
-        frame_11 = new QFrame(frame);
-        frame_11->setObjectName(QString::fromUtf8("frame_11"));
-        frame_11->setLayoutDirection(Qt::LeftToRight);
-        frame_11->setFrameShape(QFrame::StyledPanel);
-        frame_11->setFrameShadow(QFrame::Raised);
-        gridLayout_12 = new QGridLayout(frame_11);
-        gridLayout_12->setObjectName(QString::fromUtf8("gridLayout_12"));
-        label_20 = new QLabel(frame_11);
-        label_20->setObjectName(QString::fromUtf8("label_20"));
-
-        gridLayout_12->addWidget(label_20, 0, 0, 1, 1);
-
-        label_21 = new QLabel(frame_11);
-        label_21->setObjectName(QString::fromUtf8("label_21"));
-        label_21->setWordWrap(true);
-
-        gridLayout_12->addWidget(label_21, 1, 0, 1, 1);
-
-        lineEdit_10 = new QLineEdit(frame_11);
-        lineEdit_10->setObjectName(QString::fromUtf8("lineEdit_10"));
-
-        gridLayout_12->addWidget(lineEdit_10, 2, 0, 1, 1);
-
-        verticalSlider_10 = new QSlider(frame_11);
-        verticalSlider_10->setObjectName(QString::fromUtf8("verticalSlider_10"));
-        verticalSlider_10->setOrientation(Qt::Vertical);
-
-        gridLayout_12->addWidget(verticalSlider_10, 3, 0, 1, 1);
-
-        pushButton_10 = new QPushButton(frame_11);
-        pushButton_10->setObjectName(QString::fromUtf8("pushButton_10"));
-
-        gridLayout_12->addWidget(pushButton_10, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_11);
-
-        frame_12 = new QFrame(frame);
-        frame_12->setObjectName(QString::fromUtf8("frame_12"));
-        frame_12->setLayoutDirection(Qt::LeftToRight);
-        frame_12->setFrameShape(QFrame::StyledPanel);
-        frame_12->setFrameShadow(QFrame::Raised);
-        gridLayout_11 = new QGridLayout(frame_12);
-        gridLayout_11->setObjectName(QString::fromUtf8("gridLayout_11"));
-        label_22 = new QLabel(frame_12);
-        label_22->setObjectName(QString::fromUtf8("label_22"));
-
-        gridLayout_11->addWidget(label_22, 0, 0, 1, 1);
-
-        label_23 = new QLabel(frame_12);
-        label_23->setObjectName(QString::fromUtf8("label_23"));
-        label_23->setWordWrap(true);
-
-        gridLayout_11->addWidget(label_23, 1, 0, 1, 1);
-
-        lineEdit_11 = new QLineEdit(frame_12);
-        lineEdit_11->setObjectName(QString::fromUtf8("lineEdit_11"));
-
-        gridLayout_11->addWidget(lineEdit_11, 2, 0, 1, 1);
-
-        verticalSlider_11 = new QSlider(frame_12);
-        verticalSlider_11->setObjectName(QString::fromUtf8("verticalSlider_11"));
-        verticalSlider_11->setOrientation(Qt::Vertical);
-
-        gridLayout_11->addWidget(verticalSlider_11, 3, 0, 1, 1);
-
-        pushButton_11 = new QPushButton(frame_12);
-        pushButton_11->setObjectName(QString::fromUtf8("pushButton_11"));
-
-        gridLayout_11->addWidget(pushButton_11, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_12);
-
-        frame_13 = new QFrame(frame);
-        frame_13->setObjectName(QString::fromUtf8("frame_13"));
-        frame_13->setLayoutDirection(Qt::LeftToRight);
-        frame_13->setFrameShape(QFrame::StyledPanel);
-        frame_13->setFrameShadow(QFrame::Raised);
-        gridLayout_10 = new QGridLayout(frame_13);
-        gridLayout_10->setObjectName(QString::fromUtf8("gridLayout_10"));
-        label_24 = new QLabel(frame_13);
-        label_24->setObjectName(QString::fromUtf8("label_24"));
-
-        gridLayout_10->addWidget(label_24, 0, 0, 1, 1);
-
-        label_25 = new QLabel(frame_13);
-        label_25->setObjectName(QString::fromUtf8("label_25"));
-        label_25->setWordWrap(true);
-
-        gridLayout_10->addWidget(label_25, 1, 0, 1, 1);
-
-        lineEdit_12 = new QLineEdit(frame_13);
-        lineEdit_12->setObjectName(QString::fromUtf8("lineEdit_12"));
-
-        gridLayout_10->addWidget(lineEdit_12, 2, 0, 1, 1);
-
-        verticalSlider_12 = new QSlider(frame_13);
-        verticalSlider_12->setObjectName(QString::fromUtf8("verticalSlider_12"));
-        verticalSlider_12->setOrientation(Qt::Vertical);
-
-        gridLayout_10->addWidget(verticalSlider_12, 3, 0, 1, 1);
-
-        pushButton_12 = new QPushButton(frame_13);
-        pushButton_12->setObjectName(QString::fromUtf8("pushButton_12"));
-
-        gridLayout_10->addWidget(pushButton_12, 4, 0, 1, 1);
-
-
-        horizontalLayout->addWidget(frame_13);
+        LoudnessGainScrollArea = new QScrollArea(frame);
+        LoudnessGainScrollArea->setObjectName("LoudnessGainScrollArea");
+        LoudnessGainScrollArea->setFrameShape(QFrame::NoFrame);
+        LoudnessGainScrollArea->setFrameShadow(QFrame::Plain);
+        LoudnessGainScrollArea->setWidgetResizable(true);
+        LoudnessGainScrollAreaWidget = new QWidget();
+        LoudnessGainScrollAreaWidget->setObjectName("LoudnessGainScrollAreaWidget");
+        LoudnessGainScrollAreaWidget->setEnabled(true);
+        LoudnessGainScrollAreaWidget->setGeometry(QRect(0, 0, 805, 516));
+        LoudnessGainScrollAreaWidget->setStyleSheet(QString::fromUtf8("QWidget\n"
+"{\n"
+"	background: #ffffff;\n"
+"}"));
+        horizontalLayout_9 = new QHBoxLayout(LoudnessGainScrollAreaWidget);
+        horizontalLayout_9->setSpacing(0);
+        horizontalLayout_9->setObjectName("horizontalLayout_9");
+        horizontalLayout_9->setContentsMargins(0, 0, 0, 0);
+        LoudnessGainScrollAreaWidgetLayout = new QHBoxLayout();
+        LoudnessGainScrollAreaWidgetLayout->setSpacing(0);
+        LoudnessGainScrollAreaWidgetLayout->setObjectName("LoudnessGainScrollAreaWidgetLayout");
+
+        horizontalLayout_9->addLayout(LoudnessGainScrollAreaWidgetLayout);
+
+        LoudnessGainScrollArea->setWidget(LoudnessGainScrollAreaWidget);
+
+        horizontalLayout->addWidget(LoudnessGainScrollArea);
 
 
         verticalLayout->addWidget(frame);
@@ -595,42 +640,22 @@ public:
     {
         LoudnessGain->setWindowTitle(QCoreApplication::translate("LoudnessGain", "Loudness Gain", nullptr));
         label->setText(QCoreApplication::translate("LoudnessGain", "\345\223\215\345\272\246\345\242\236\347\233\212", nullptr));
-        label_2->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_3->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton->setText(QString());
-        label_4->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_5->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_2->setText(QString());
-        label_6->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_7->setText(QCoreApplication::translate("LoudnessGain", "Surround Left L", nullptr));
-        pushButton_3->setText(QString());
-        label_8->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_9->setText(QCoreApplication::translate("LoudnessGain", "Surround Left R", nullptr));
-        pushButton_4->setText(QString());
-        label_10->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_11->setText(QCoreApplication::translate("LoudnessGain", "Surround Left C", nullptr));
-        pushButton_5->setText(QString());
-        label_12->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_13->setText(QCoreApplication::translate("LoudnessGain", "Surround Left LEF", nullptr));
-        pushButton_6->setText(QString());
-        label_14->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_15->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_7->setText(QString());
-        label_16->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_17->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_8->setText(QString());
-        label_18->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_19->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_9->setText(QString());
-        label_20->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_21->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_10->setText(QString());
-        label_22->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_23->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_11->setText(QString());
-        label_24->setText(QCoreApplication::translate("LoudnessGain", "icon\345\233\276", nullptr));
-        label_25->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
-        pushButton_12->setText(QString());
+        total_output_play_button->setText(QString());
+        total_output_icon_label->setText(QString());
+        text_label->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
+        label_3->setText(QCoreApplication::translate("LoudnessGain", "-12", nullptr));
+        label_4->setText(QCoreApplication::translate("LoudnessGain", "-24", nullptr));
+        label_5->setText(QCoreApplication::translate("LoudnessGain", "-36", nullptr));
+        label_6->setText(QCoreApplication::translate("LoudnessGain", "0", nullptr));
+        label_9->setText(QCoreApplication::translate("LoudnessGain", "-84", nullptr));
+        label_7->setText(QCoreApplication::translate("LoudnessGain", "-60", nullptr));
+        label_8->setText(QCoreApplication::translate("LoudnessGain", "-48", nullptr));
+        label_10->setText(QCoreApplication::translate("LoudnessGain", "-72", nullptr));
+        label_11->setText(QCoreApplication::translate("LoudnessGain", "12", nullptr));
+        label_12->setText(QCoreApplication::translate("LoudnessGain", "-96", nullptr));
+        text_label_2->setText(QCoreApplication::translate("LoudnessGain", "Surround Left Surround", nullptr));
+        total_input_icon_label->setText(QString());
+        label_2->setText(QString());
     } // retranslateUi
 
 };

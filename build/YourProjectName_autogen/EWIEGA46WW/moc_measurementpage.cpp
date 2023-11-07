@@ -1,52 +1,79 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'measurementpage.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.8)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../measurementpage.h"
-#include <QtCore/qbytearray.h>
+#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'measurementpage.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.15.8. It"
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_MeasurementPage_t {
-    QByteArrayData data[4];
-    char stringdata0[69];
-};
-#define QT_MOC_LITERAL(idx, ofs, len) \
-    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_MeasurementPage_t, stringdata0) + ofs \
-        - idx * sizeof(QByteArrayData)) \
-    )
-static const qt_meta_stringdata_MeasurementPage_t qt_meta_stringdata_MeasurementPage = {
-    {
-QT_MOC_LITERAL(0, 0, 15), // "MeasurementPage"
-QT_MOC_LITERAL(1, 16, 23), // "onNextStepButtonClicked"
-QT_MOC_LITERAL(2, 40, 0), // ""
-QT_MOC_LITERAL(3, 41, 27) // "onPreviousStepButtonClicked"
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
 
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSMeasurementPageENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSMeasurementPageENDCLASS = QtMocHelpers::stringData(
+    "MeasurementPage",
+    "onNextStepButtonClicked",
+    "",
+    "onPreviousStepButtonClicked"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSMeasurementPageENDCLASS_t {
+    uint offsetsAndSizes[8];
+    char stringdata0[16];
+    char stringdata1[24];
+    char stringdata2[1];
+    char stringdata3[28];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSMeasurementPageENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSMeasurementPageENDCLASS_t qt_meta_stringdata_CLASSMeasurementPageENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 15),  // "MeasurementPage"
+        QT_MOC_LITERAL(16, 23),  // "onNextStepButtonClicked"
+        QT_MOC_LITERAL(40, 0),  // ""
+        QT_MOC_LITERAL(41, 27)   // "onPreviousStepButtonClicked"
     },
-    "MeasurementPage\0onNextStepButtonClicked\0"
-    "\0onPreviousStepButtonClicked"
+    "MeasurementPage",
+    "onNextStepButtonClicked",
+    "",
+    "onPreviousStepButtonClicked"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_MeasurementPage[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSMeasurementPageENDCLASS[] = {
 
  // content:
-       8,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -56,9 +83,9 @@ static const uint qt_meta_data_MeasurementPage[] = {
        0,       // flags
        0,       // signalCount
 
- // slots: name, argc, parameters, tag, flags
-       1,    0,   24,    2, 0x08 /* Private */,
-       3,    0,   25,    2, 0x08 /* Private */,
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   26,    2, 0x08,    1 /* Private */,
+       3,    0,   27,    2, 0x08,    2 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -66,6 +93,23 @@ static const uint qt_meta_data_MeasurementPage[] = {
 
        0        // eod
 };
+
+Q_CONSTINIT const QMetaObject MeasurementPage::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_CLASSMeasurementPageENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSMeasurementPageENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMeasurementPageENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<MeasurementPage, std::true_type>,
+        // method 'onNextStepButtonClicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onPreviousStepButtonClicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
+    >,
+    nullptr
+} };
 
 void MeasurementPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
@@ -81,16 +125,6 @@ void MeasurementPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
     (void)_a;
 }
 
-QT_INIT_METAOBJECT const QMetaObject MeasurementPage::staticMetaObject = { {
-    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_MeasurementPage.data,
-    qt_meta_data_MeasurementPage,
-    qt_static_metacall,
-    nullptr,
-    nullptr
-} };
-
-
 const QMetaObject *MeasurementPage::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
@@ -99,7 +133,7 @@ const QMetaObject *MeasurementPage::metaObject() const
 void *MeasurementPage::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_MeasurementPage.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSMeasurementPageENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
@@ -115,10 +149,9 @@ int MeasurementPage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         _id -= 2;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 2)
-            *reinterpret_cast<int*>(_a[0]) = -1;
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 2;
     }
     return _id;
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

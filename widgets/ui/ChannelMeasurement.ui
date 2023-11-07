@@ -6,14 +6,43 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>682</width>
-    <height>423</height>
+    <width>1147</width>
+    <height>649</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
+  <property name="styleSheet">
+   <string notr="true">QTabWidget::tab-bar 
+{
+	left:0px;
+}
+
+QTabBar::tab
+{
+	min-width: 150px;
+    max-width: 150px;
+    max-height: 50px;
+    min-height: 50px;
+    background: rgb(250, 250, 250);
+	
+    font-size: 12px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #555555;
+    line-height: 32px;
+}
+
+QTabBar::tab:selected
+{
+	border-bottom: 4px solid #000000;
+    font-size: 20px;
+    color: #111111;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
    <property name="spacing">
     <number>0</number>
    </property>
@@ -30,7 +59,156 @@
     <number>12</number>
    </property>
    <item>
-    <widget class="QTableWidget" name="tableWidget"/>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>400</height>
+      </size>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="elideMode">
+      <enum>Qt::ElideLeft</enum>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>通道测量</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QTableWidget" name="channelMeasurementTable">
+         <property name="styleSheet">
+          <string notr="true">QHeaderView::section 
+{
+    background-color: rgb(249, 248, 249);
+    padding: 4px;
+    font-size: 14pt;
+	border: 1px solid rgb(240, 240, 240);
+	
+	selection-background-color: rgb(249, 248, 249);
+}
+
+QTableView::item:selected
+{
+	selection-background-color: rgb(249, 248, 249);
+
+    font-size: 12px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    line-height: 32px;
+}
+
+QTableView::item:focus{
+	color: #333333;
+}</string>
+         </property>
+         <property name="textElideMode">
+          <enum>Qt::ElideRight</enum>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>新建行</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建行</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建行</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>新建行</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Spaker</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>名称</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建列</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>新建列</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>测量点</string>
+      </attribute>
+     </widget>
+    </widget>
    </item>
   </layout>
  </widget>

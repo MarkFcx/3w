@@ -6,12 +6,101 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1025</width>
-    <height>462</height>
+    <width>1680</width>
+    <height>982</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1680</width>
+    <height>982</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1680</width>
+    <height>982</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Measurement Page</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame#TopFrame 
+{
+	    background: #ffffff;
+}
+
+QFrame#DownFrame 
+{
+	    background: rgb(250, 250, 250);
+}
+
+QPushButton#NextStepButton,
+QPushButton#PreviousStepButton
+{
+    min-width: 70px;
+	max-width: 70px;
+	max-height: 36px;
+	min-height: 36px;
+    background: rgb(111, 63, 252);
+    border-radius: 4px;
+    
+font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+QPushButton:pressed#NextStepButton,
+QPushButton:pressed#PreviousStepButton
+{
+    background: rgb(81, 63, 222);
+}
+
+
+QPushButton#connectButton
+{
+    min-width: 152px;
+	max-width: 152px;
+	max-height: 36px;
+	min-height: 36px;
+    background: rgb(239, 239, 255);
+	border: 2px solid rgb(203, 202, 254);
+    border-radius: 4px;
+    
+    font-size: 18px;
+    
+    font-weight: 600;
+    text-align: center;
+    color: rgb(111, 63, 252);
+    line-height: 32px;
+}
+
+QPushButton:pressed#connectButton
+{
+    background: rgb(219, 219, 225);
+}
+
+QPushButton#micButton
+{
+    min-width: 36px;
+	max-width: 36px;
+	max-height: 36px;
+	min-height: 36px;
+    background: rgb(250, 250, 250);
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 4px;
+    border-image: url(:/icon/mic_icon.png);
+}
+
+QPushButton:pressed#micButton
+{
+    background: rgb(219, 219, 225);
+}</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
    <property name="spacing">
@@ -31,91 +120,874 @@
    </property>
    <item>
     <widget class="QFrame" name="TopFrame">
+     <property name="minimumSize">
+      <size>
+       <width>1680</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1680</width>
+       <height>60</height>
+      </size>
+     </property>
      <property name="styleSheet">
-      <string notr="true">
-QLabel{
-    border-image: url(:/icon/measurementlabel_1_current.png);
-}</string>
+      <string notr="true"/>
      </property>
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Plain</enum>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
       <item>
-       <widget class="QLabel" name="label_1">
-        <property name="text">
-         <string>通道测量</string>
+       <widget class="QFrame" name="frame">
+        <property name="styleSheet">
+         <string notr="true">QLabel#icon_label_3,
+QLabel#icon_label_4,
+QLabel#icon_label_5,
+QLabel#icon_label_6,
+QLabel#icon_label_7,
+QLabel#icon_label_8,
+QLabel#icon_label_9
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3,
+QLabel#text_label_4,
+QLabel#text_label_5,
+QLabel#text_label_6,
+QLabel#text_label_7,
+QLabel#text_label_8,
+QLabel#text_label_9
+{
+	max-width: 84px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3,
+QLabel#line_label_4,
+QLabel#line_label_5,
+QLabel#line_label_6,
+QLabel#line_label_7,
+QLabel#line_label_8,
+QLabel#line_label_9
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
         </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_1">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_1
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: rgb(58, 218, 170);
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_current.svg);
+}
+
+QLabel#text_label_1
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #565656;
+}
+
+QLabel#line_label_1
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: rgb(58, 218, 170);
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_1">
+              <property name="text">
+               <string>通道测量</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_2">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_2
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: rgb(58, 218, 170);
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_prepare.svg);
+}
+
+QLabel#text_label_2
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #565656;
+}
+
+QLabel#line_label_2
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_2">
+              <property name="text">
+               <string>通道路由</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_3">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_3">
+              <property name="text">
+               <string>响度增益</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_3">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_4">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_4">
+              <property name="minimumSize">
+               <size>
+                <width>84</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>扬声器频响</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_4">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_5">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_5">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_5">
+              <property name="text">
+               <string>分频配置</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_5">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_6">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_6">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_6">
+              <property name="text">
+               <string>声场频响</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_6">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_7">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_7">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_7">
+              <property name="minimumSize">
+               <size>
+                <width>85</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>85</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>声场自动均衡</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_7">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_8">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_8">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_8">
+              <property name="text">
+               <string>人工调音</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="line_label_8">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_9">
+           <property name="styleSheet">
+            <string notr="true">QLabel#icon_label_3
+{
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    background: #ffffff;
+    border-radius: 7px;
+    border-image: url(:/icon/navigation_icon_not.svg);
+}
+
+QLabel#text_label_3
+{
+	max-width: 56px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+QLabel#line_label_3
+{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 2px;
+    max-height: 2px;
+    background: #9E9E9E;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <property name="spacing">
+             <number>-1</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="icon_label_9">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="text_label_9">
+              <property name="text">
+               <string>延时测量</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>通道路由</string>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
         </property>
-       </widget>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="label_3">
+       <widget class="QPushButton" name="micButton">
         <property name="text">
-         <string>响度增益</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>扬声器频响</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_5">
-        <property name="text">
-         <string>分频配置</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_6">
-        <property name="text">
-         <string>声场频响</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_7">
-        <property name="text">
-         <string>声场自动均衡</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_8">
-        <property name="text">
-         <string>人工调音</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_9">
-        <property name="text">
-         <string>延时测量</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="microphoneButton">
-        <property name="text">
-         <string>麦克风icon</string>
+         <string/>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="connectButton">
+        <property name="minimumSize">
+         <size>
+          <width>156</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>156</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>车机APP已连接</string>
         </property>
@@ -123,6 +995,18 @@ QLabel{
       </item>
       <item>
        <widget class="QPushButton" name="PreviousStepButton">
+        <property name="minimumSize">
+         <size>
+          <width>70</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>36</height>
+         </size>
+        </property>
         <property name="text">
          <string>上一步</string>
         </property>
@@ -130,6 +1014,18 @@ QLabel{
       </item>
       <item>
        <widget class="QPushButton" name="NextStepButton">
+        <property name="minimumSize">
+         <size>
+          <width>70</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>36</height>
+         </size>
+        </property>
         <property name="text">
          <string>下一步</string>
         </property>
@@ -141,10 +1037,13 @@ QLabel{
    <item>
     <widget class="QFrame" name="DownFrame">
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
      </property>
     </widget>
    </item>

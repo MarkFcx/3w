@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InputDialog</class>
+ <widget class="QDialog" name="InputDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame#BarFrame 
+{
+	background: rgb(245, 245, 245);
+}
+
+QFrame#frame,
+QFrame#frame_2,
+QFrame#frame_3,
+QFrame#frame_4,
+QDialog
+{
+	background: #ffffff;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3" rowstretch="1,4,4,4,2,0,0,0" columnstretch="1,5,1">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="5" column="1">
+    <widget class="QFrame" name="frame_3">
+     <property name="styleSheet">
+      <string notr="true">QCheckBox
+{
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #565656;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #636468;
+</string>
+        </property>
+        <property name="text">
+         <string>选择模式：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBox_0">
+        <property name="text">
+         <string>全车模式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBox_1">
+        <property name="text">
+         <string>主驾模式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="text">
+         <string>副驾模式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="text">
+         <string>左后模式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="text">
+         <string>右后模式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="text">
+         <string>前排模式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="text">
+         <string>后排模式</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" rowstretch="1,3,3">
+      <property name="spacing">
+       <number>20</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #565656;</string>
+        </property>
+        <property name="text">
+         <string>IP设置</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #636468;</string>
+        </property>
+        <property name="text">
+         <string>连接车机APP:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="portLineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>38</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>38</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #E7E7E7;
+border-radius: 3px;</string>
+        </property>
+        <property name="text">
+         <string>1234</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="connectButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    min-width: 140px;
+	max-width: 140px;
+	max-height: 38px;
+	min-height: 38px;
+    background: rgb(111, 63, 252);
+    border-radius: 4px;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    line-height: 32px;
+}
+
+QPushButton:pressed {
+    background: rgb(81, 63, 222);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>连接车机</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #565656;</string>
+        </property>
+        <property name="text">
+         <string>端口</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="ipLineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>38</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>38</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;
+border: 1px solid #E7E7E7;
+border-radius: 3px;</string>
+        </property>
+        <property name="text">
+         <string>127.0.0.1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QFrame" name="frame_2">
+     <property name="styleSheet">
+      <string notr="true">QRadioButton
+{
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #565656;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0,0" columnstretch="0,0,0">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="2" column="2">
+       <widget class="QRadioButton" name="radioButton_51">
+        <property name="text">
+         <string>5.1</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton_714">
+        <property name="text">
+         <string>7.1.4</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="radioButton_514">
+        <property name="text">
+         <string>5.1.4</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #636468;</string>
+        </property>
+        <property name="text">
+         <string>选择声道：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QRadioButton" name="radioButton_712">
+        <property name="text">
+         <string>7.1.2</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QRadioButton" name="radioButton_512">
+        <property name="text">
+         <string>5.1.2</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QRadioButton" name="radioButton_71">
+        <property name="text">
+         <string>7.1</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="7" column="0" colspan="3">
+    <widget class="QFrame" name="frame_4">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="connectSuccessLabel">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    min-width: 10px;
+	max-width: 10px;
+	max-height: 10px;
+	min-height: 10px;
+	background: rgb(172, 172, 172);
+	border-radius: 5px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="speakerNumLabel">
+        <property name="text">
+         <string>Speaker:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>536</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="CancelButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    min-width: 100px;
+	max-width: 100px;
+	max-height: 38px;
+	min-height: 38px;
+    background:rgb(231, 231, 231);
+    border-radius: 4px;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #111111;
+    line-height: 32px;
+}</string>
+        </property>
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="OKButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    min-width: 100px;
+	max-width: 100px;
+	max-height: 38px;
+	min-height: 38px;
+    background: rgb(111, 63, 252);
+    border-radius: 4px;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    line-height: 32px;
+}
+
+QPushButton:pressed {
+    background: rgb(81, 63, 222);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QFrame" name="BarFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="new_input_icon_label">
+        <property name="minimumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel#new_input_icon_label
+{
+	border-image: url(:/icon/project_button_icon.svg);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>新建项目</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>796</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="Line" name="line_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

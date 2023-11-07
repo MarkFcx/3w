@@ -1,48 +1,66 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ManualTuning.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.8)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../widgets/ManualTuning.h"
-#include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'ManualTuning.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.15.8. It"
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_ManualTuning_t {
-    QByteArrayData data[1];
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSManualTuningENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSManualTuningENDCLASS = QtMocHelpers::stringData(
+    "ManualTuning"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSManualTuningENDCLASS_t {
+    uint offsetsAndSizes[2];
     char stringdata0[13];
 };
-#define QT_MOC_LITERAL(idx, ofs, len) \
-    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_ManualTuning_t, stringdata0) + ofs \
-        - idx * sizeof(QByteArrayData)) \
-    )
-static const qt_meta_stringdata_ManualTuning_t qt_meta_stringdata_ManualTuning = {
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSManualTuningENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSManualTuningENDCLASS_t qt_meta_stringdata_CLASSManualTuningENDCLASS = {
     {
-QT_MOC_LITERAL(0, 0, 12) // "ManualTuning"
-
+        QT_MOC_LITERAL(0, 12)   // "ManualTuning"
     },
     "ManualTuning"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_ManualTuning[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSManualTuningENDCLASS[] = {
 
  // content:
-       8,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -55,6 +73,19 @@ static const uint qt_meta_data_ManualTuning[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject ManualTuning::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_CLASSManualTuningENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSManualTuningENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSManualTuningENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<ManualTuning, std::true_type>
+    >,
+    nullptr
+} };
+
 void ManualTuning::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
@@ -62,16 +93,6 @@ void ManualTuning::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     (void)_c;
     (void)_a;
 }
-
-QT_INIT_METAOBJECT const QMetaObject ManualTuning::staticMetaObject = { {
-    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_ManualTuning.data,
-    qt_meta_data_ManualTuning,
-    qt_static_metacall,
-    nullptr,
-    nullptr
-} };
-
 
 const QMetaObject *ManualTuning::metaObject() const
 {
@@ -81,7 +102,7 @@ const QMetaObject *ManualTuning::metaObject() const
 void *ManualTuning::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ManualTuning.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSManualTuningENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
@@ -92,4 +113,3 @@ int ManualTuning::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

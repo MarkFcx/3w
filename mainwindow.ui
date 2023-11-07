@@ -6,129 +6,251 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>989</width>
-    <height>595</height>
+    <width>1175</width>
+    <height>803</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>WANOS</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QFrame" name="LoginFrame">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>100</y>
-      <width>501</width>
-      <height>331</height>
-     </rect>
+  <widget class="QWidget" name="w">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
     </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
+    <property name="leftMargin">
+     <number>0</number>
     </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
+    <property name="topMargin">
+     <number>0</number>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="barWidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>1680</width>
+        <height>42</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1680</width>
+        <height>42</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #E7E7E7;
+
+border-radius: 8px 8px 0px 0px;</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>6</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
        <item>
-        <spacer name="verticalSpacer">
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="exit_button">
+            <property name="styleSheet">
+             <string notr="true">QPushButton
+{
+	min-width: 12px;
+	max-width: 12px;
+	max-height: 12px;
+	min-height: 12px;
+
+	background: #FF5E5D;
+	border: 0.5px solid #E1A325;
+    border-radius: 6px;
+}
+
+QPushButton::hover
+{
+	min-width: 14px;
+	max-width: 14px;
+	max-height: 14px;
+	min-height: 14px;
+
+	background: #FF7E7D;
+	border: 0.5px solid #E1A325;
+    border-radius: 7px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton
+{
+	min-width: 12px;
+	max-width: 12px;
+	max-height: 12px;
+	min-height: 12px;
+
+background: #FFBC4F;
+border: 0.5px solid #E1A325;
+
+    border-radius: 6px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="styleSheet">
+             <string notr="true">QPushButton
+{
+	min-width: 12px;
+	max-width: 12px;
+	max-height: 12px;
+	min-height: 12px;
+
+background: #22CB58;
+border: 0.5px solid #3EAF3F;
+
+    border-radius: 6px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="button_frame">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="PersonalPageButton">
+            <property name="styleSheet">
+             <string notr="true">QPushButton
+{
+	min-width: 84px;
+	min-height: 36px;
+	max-width: 84px;
+	max-height: 36px;
+
+	background: #E7E7E7;
+	border-radius: 3px 3px 0px 0px;
+}
+
+QPushButton::checked
+{
+	background: #FFFFFF;
+	border-radius: 3px 3px 0px 0px;
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
          <property name="orientation">
-          <enum>Qt::Vertical</enum>
+          <enum>Qt::Horizontal</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QLabel" name="label">
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
+           <width>40</width>
            <height>20</height>
-          </size>
-         </property>
-         <property name="text">
-          <string>用户名</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="usernameLineEdit">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>30</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_2">
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>20</height>
-          </size>
-         </property>
-         <property name="text">
-          <string>密码</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="passwordLineEdit">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>30</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <spacer name="verticalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
           </size>
          </property>
         </spacer>
        </item>
       </layout>
-     </item>
-     <item>
-      <widget class="QPushButton" name="loginButton">
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>40</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>登录</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="centralwidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>1680</width>
+        <height>982</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1680</width>
+        <height>982</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>989</width>
-     <height>24</height>
+     <width>1175</width>
+     <height>43</height>
     </rect>
    </property>
   </widget>

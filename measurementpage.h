@@ -2,6 +2,7 @@
 #define MEASUREMENTPAGE_H
 
 #include <QWidget>
+#include <QLabel>
 
 class ChannelMeasurement;
 class ChannelRouting;
@@ -25,6 +26,11 @@ public:
     explicit MeasurementPage(QWidget *parent = nullptr);
     ~MeasurementPage();
     void initDownWidgetsAddToPage();
+    void loadData();
+    void setNextLabelStyle(int index);
+    void setPreviousLabelStyle(int index);
+
+private:
 
 private slots:
     void onNextStepButtonClicked();

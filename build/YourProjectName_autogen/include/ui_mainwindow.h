@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.15.8
+** Created by: Qt User Interface Compiler version 6.5.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -12,8 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QFrame>
-#include <QtWidgets/QLabel>
-#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -27,84 +26,172 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QWidget *centralwidget;
-    QFrame *LoginFrame;
+    QWidget *w;
     QVBoxLayout *verticalLayout;
-    QVBoxLayout *verticalLayout_2;
-    QSpacerItem *verticalSpacer;
-    QLabel *label;
-    QLineEdit *usernameLineEdit;
-    QLabel *label_2;
-    QLineEdit *passwordLineEdit;
-    QSpacerItem *verticalSpacer_2;
-    QPushButton *loginButton;
+    QWidget *barWidget;
+    QHBoxLayout *horizontalLayout_2;
+    QFrame *frame;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *exit_button;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_3;
+    QFrame *button_frame;
+    QHBoxLayout *horizontalLayout_3;
+    QPushButton *PersonalPageButton;
+    QSpacerItem *horizontalSpacer;
+    QWidget *centralwidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(989, 595);
-        centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        LoginFrame = new QFrame(centralwidget);
-        LoginFrame->setObjectName(QString::fromUtf8("LoginFrame"));
-        LoginFrame->setGeometry(QRect(240, 100, 501, 331));
-        LoginFrame->setFrameShape(QFrame::StyledPanel);
-        LoginFrame->setFrameShadow(QFrame::Raised);
-        verticalLayout = new QVBoxLayout(LoginFrame);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout_2 = new QVBoxLayout();
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+            MainWindow->setObjectName("MainWindow");
+        MainWindow->resize(1175, 803);
+        w = new QWidget(MainWindow);
+        w->setObjectName("w");
+        verticalLayout = new QVBoxLayout(w);
+        verticalLayout->setSpacing(0);
+        verticalLayout->setObjectName("verticalLayout");
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        barWidget = new QWidget(w);
+        barWidget->setObjectName("barWidget");
+        barWidget->setMinimumSize(QSize(1680, 42));
+        barWidget->setMaximumSize(QSize(1680, 42));
+        barWidget->setStyleSheet(QString::fromUtf8("background: #E7E7E7;\n"
+"\n"
+"border-radius: 8px 8px 0px 0px;"));
+        horizontalLayout_2 = new QHBoxLayout(barWidget);
+        horizontalLayout_2->setSpacing(0);
+        horizontalLayout_2->setObjectName("horizontalLayout_2");
+        horizontalLayout_2->setContentsMargins(0, 6, 0, 0);
+        frame = new QFrame(barWidget);
+        frame->setObjectName("frame");
+        frame->setFrameShape(QFrame::NoFrame);
+        frame->setFrameShadow(QFrame::Plain);
+        horizontalLayout = new QHBoxLayout(frame);
+        horizontalLayout->setObjectName("horizontalLayout");
+        exit_button = new QPushButton(frame);
+        exit_button->setObjectName("exit_button");
+        exit_button->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"	min-width: 12px;\n"
+"	max-width: 12px;\n"
+"	max-height: 12px;\n"
+"	min-height: 12px;\n"
+"\n"
+"	background: #FF5E5D;\n"
+"	border: 0.5px solid #E1A325;\n"
+"    border-radius: 6px;\n"
+"}\n"
+"\n"
+"QPushButton::hover\n"
+"{\n"
+"	min-width: 14px;\n"
+"	max-width: 14px;\n"
+"	max-height: 14px;\n"
+"	min-height: 14px;\n"
+"\n"
+"	background: #FF7E7D;\n"
+"	border: 0.5px solid #E1A325;\n"
+"    border-radius: 7px;\n"
+"}"));
 
-        verticalLayout_2->addItem(verticalSpacer);
+        horizontalLayout->addWidget(exit_button);
 
-        label = new QLabel(LoginFrame);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setMaximumSize(QSize(16777215, 20));
+        pushButton_2 = new QPushButton(frame);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"	min-width: 12px;\n"
+"	max-width: 12px;\n"
+"	max-height: 12px;\n"
+"	min-height: 12px;\n"
+"\n"
+"background: #FFBC4F;\n"
+"border: 0.5px solid #E1A325;\n"
+"\n"
+"    border-radius: 6px;\n"
+"}"));
 
-        verticalLayout_2->addWidget(label);
+        horizontalLayout->addWidget(pushButton_2);
 
-        usernameLineEdit = new QLineEdit(LoginFrame);
-        usernameLineEdit->setObjectName(QString::fromUtf8("usernameLineEdit"));
-        usernameLineEdit->setMinimumSize(QSize(0, 30));
+        pushButton_3 = new QPushButton(frame);
+        pushButton_3->setObjectName("pushButton_3");
+        pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"	min-width: 12px;\n"
+"	max-width: 12px;\n"
+"	max-height: 12px;\n"
+"	min-height: 12px;\n"
+"\n"
+"background: #22CB58;\n"
+"border: 0.5px solid #3EAF3F;\n"
+"\n"
+"    border-radius: 6px;\n"
+"}"));
 
-        verticalLayout_2->addWidget(usernameLineEdit);
-
-        label_2 = new QLabel(LoginFrame);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setMaximumSize(QSize(16777215, 20));
-
-        verticalLayout_2->addWidget(label_2);
-
-        passwordLineEdit = new QLineEdit(LoginFrame);
-        passwordLineEdit->setObjectName(QString::fromUtf8("passwordLineEdit"));
-        passwordLineEdit->setMinimumSize(QSize(0, 30));
-
-        verticalLayout_2->addWidget(passwordLineEdit);
-
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
-
-        verticalLayout_2->addItem(verticalSpacer_2);
+        horizontalLayout->addWidget(pushButton_3);
 
 
-        verticalLayout->addLayout(verticalLayout_2);
+        horizontalLayout_2->addWidget(frame);
 
-        loginButton = new QPushButton(LoginFrame);
-        loginButton->setObjectName(QString::fromUtf8("loginButton"));
-        loginButton->setMinimumSize(QSize(0, 40));
+        button_frame = new QFrame(barWidget);
+        button_frame->setObjectName("button_frame");
+        button_frame->setFrameShape(QFrame::NoFrame);
+        button_frame->setFrameShadow(QFrame::Plain);
+        horizontalLayout_3 = new QHBoxLayout(button_frame);
+        horizontalLayout_3->setSpacing(0);
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
+        horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
+        PersonalPageButton = new QPushButton(button_frame);
+        PersonalPageButton->setObjectName("PersonalPageButton");
+        PersonalPageButton->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"	min-width: 84px;\n"
+"	min-height: 36px;\n"
+"	max-width: 84px;\n"
+"	max-height: 36px;\n"
+"\n"
+"	background: #E7E7E7;\n"
+"	border-radius: 3px 3px 0px 0px;\n"
+"}\n"
+"\n"
+"QPushButton::checked\n"
+"{\n"
+"	background: #FFFFFF;\n"
+"	border-radius: 3px 3px 0px 0px;\n"
+"}\n"
+""));
+        PersonalPageButton->setCheckable(true);
+        PersonalPageButton->setChecked(true);
 
-        verticalLayout->addWidget(loginButton);
+        horizontalLayout_3->addWidget(PersonalPageButton);
 
-        MainWindow->setCentralWidget(centralwidget);
+
+        horizontalLayout_2->addWidget(button_frame);
+
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer);
+
+
+        verticalLayout->addWidget(barWidget);
+
+        centralwidget = new QWidget(w);
+        centralwidget->setObjectName("centralwidget");
+        centralwidget->setMinimumSize(QSize(1680, 982));
+        centralwidget->setMaximumSize(QSize(1680, 982));
+
+        verticalLayout->addWidget(centralwidget);
+
+        MainWindow->setCentralWidget(w);
         menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 989, 24));
+        menubar->setObjectName("menubar");
+        menubar->setGeometry(QRect(0, 0, 1175, 43));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName(QString::fromUtf8("statusbar"));
+        statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
@@ -114,10 +201,11 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "\347\224\250\346\210\267\345\220\215", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "\345\257\206\347\240\201", nullptr));
-        loginButton->setText(QCoreApplication::translate("MainWindow", "\347\231\273\345\275\225", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "WANOS", nullptr));
+        exit_button->setText(QString());
+        pushButton_2->setText(QString());
+        pushButton_3->setText(QString());
+        PersonalPageButton->setText(QString());
     } // retranslateUi
 
 };

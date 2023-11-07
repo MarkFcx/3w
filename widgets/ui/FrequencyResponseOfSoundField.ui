@@ -6,28 +6,42 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>654</width>
-    <height>395</height>
+    <width>1055</width>
+    <height>712</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Frequency Response of Sound Field</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame
+{
+	background: #FFFFFF
+}</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
    <property name="spacing">
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frame">
+    <widget class="QFrame" name="top_frame">
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Plain</enum>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="total_label">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+color: #565656;</string>
+        </property>
         <property name="text">
          <string>声场频响</string>
         </property>
@@ -50,13 +64,360 @@
     </widget>
    </item>
    <item>
-    <widget class="QFrame" name="frame_2">
+    <widget class="QFrame" name="down_frame">
+     <property name="font">
+      <font>
+       <family>.AppleSystemUIFont</family>
+      </font>
+     </property>
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Sunken</enum>
      </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="verticalSpacing">
+       <number>0</number>
+      </property>
+      <item row="1" column="0">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>27</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="1" colspan="2">
+       <widget class="QFrame" name="frame_3">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,1,1,5,1,3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_">
+           <property name="styleSheet">
+            <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #636468;</string>
+           </property>
+           <property name="text">
+            <string>测试源：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="progress_widget" native="true"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="percent_label">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>0%</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>3</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="6" column="1">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>5</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="1" rowspan="2" colspan="2">
+       <widget class="QFrame" name="car_frame">
+        <property name="minimumSize">
+         <size>
+          <width>915</width>
+          <height>484</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>915</width>
+          <height>484</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame#car_frame
+{
+	border-image: url(:/icon/car.png);
+}
+
+QPushButton#car_play_left_front_button,
+QPushButton#car_play_right_front_button,
+QPushButton#car_play_left_rear_button,
+QPushButton#car_play_right_rear_button
+{
+	border-image: url(:/icon/car_play_icon.svg);
+}
+
+QPushButton::checked#car_play_left_front_button,
+QPushButton::checked#car_play_right_front_button,
+QPushButton::checked#car_play_left_rear_button,
+QPushButton::checked#car_play_right_rear_button
+{
+	border-image: url(:/icon/car_stop_play_icon.svg);
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <widget class="QPushButton" name="car_play_right_front_button">
+         <property name="geometry">
+          <rect>
+           <x>355</x>
+           <y>78</y>
+           <width>110</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="car_play_right_rear_button">
+         <property name="geometry">
+          <rect>
+           <x>576</x>
+           <y>78</y>
+           <width>110</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="car_play_left_front_button">
+         <property name="geometry">
+          <rect>
+           <x>355</x>
+           <y>219</y>
+           <width>110</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="car_play_left_rear_button">
+         <property name="geometry">
+          <rect>
+           <x>576</x>
+           <y>219</y>
+           <width>110</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>110</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>27</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="1">
+       <widget class="QSlider" name="test_slider">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
     </widget>
    </item>
   </layout>

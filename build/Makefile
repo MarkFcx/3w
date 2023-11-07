@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jianjia/GitProject/qt_project
+CMAKE_SOURCE_DIR = /Users/fcx/GitProjects/3w
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jianjia/GitProject/qt_project/build
+CMAKE_BINARY_DIR = /Users/fcx/GitProjects/3w/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/jianjia/GitProject/qt_project/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.26.0/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.26.4/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jianjia/GitProject/qt_project/build/CMakeFiles /Users/jianjia/GitProject/qt_project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fcx/GitProjects/3w/build/CMakeFiles /Users/fcx/GitProjects/3w/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jianjia/GitProject/qt_project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fcx/GitProjects/3w/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,78 @@ YourProjectName_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName_autogen.dir/build.make CMakeFiles/YourProjectName_autogen.dir/build
 .PHONY : YourProjectName_autogen/fast
 
+DatabaseManager.o: DatabaseManager.cpp.o
+.PHONY : DatabaseManager.o
+
+# target to build an object file
+DatabaseManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/DatabaseManager.cpp.o
+.PHONY : DatabaseManager.cpp.o
+
+DatabaseManager.i: DatabaseManager.cpp.i
+.PHONY : DatabaseManager.i
+
+# target to preprocess a source file
+DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/DatabaseManager.cpp.i
+.PHONY : DatabaseManager.cpp.i
+
+DatabaseManager.s: DatabaseManager.cpp.s
+.PHONY : DatabaseManager.s
+
+# target to generate assembly for a file
+DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/DatabaseManager.cpp.s
+.PHONY : DatabaseManager.cpp.s
+
+GlobalHelper.o: GlobalHelper.cpp.o
+.PHONY : GlobalHelper.o
+
+# target to build an object file
+GlobalHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/GlobalHelper.cpp.o
+.PHONY : GlobalHelper.cpp.o
+
+GlobalHelper.i: GlobalHelper.cpp.i
+.PHONY : GlobalHelper.i
+
+# target to preprocess a source file
+GlobalHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/GlobalHelper.cpp.i
+.PHONY : GlobalHelper.cpp.i
+
+GlobalHelper.s: GlobalHelper.cpp.s
+.PHONY : GlobalHelper.s
+
+# target to generate assembly for a file
+GlobalHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/GlobalHelper.cpp.s
+.PHONY : GlobalHelper.cpp.s
+
+RenameDialog.o: RenameDialog.cpp.o
+.PHONY : RenameDialog.o
+
+# target to build an object file
+RenameDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/RenameDialog.cpp.o
+.PHONY : RenameDialog.cpp.o
+
+RenameDialog.i: RenameDialog.cpp.i
+.PHONY : RenameDialog.i
+
+# target to preprocess a source file
+RenameDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/RenameDialog.cpp.i
+.PHONY : RenameDialog.cpp.i
+
+RenameDialog.s: RenameDialog.cpp.s
+.PHONY : RenameDialog.s
+
+# target to generate assembly for a file
+RenameDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/RenameDialog.cpp.s
+.PHONY : RenameDialog.cpp.s
+
 YourProjectName_autogen/EWIEGA46WW/qrc_icons.o: YourProjectName_autogen/EWIEGA46WW/qrc_icons.cpp.o
 .PHONY : YourProjectName_autogen/EWIEGA46WW/qrc_icons.o
 
@@ -189,6 +261,54 @@ YourProjectName_autogen/mocs_compilation.s: YourProjectName_autogen/mocs_compila
 YourProjectName_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/YourProjectName_autogen/mocs_compilation.cpp.s
 .PHONY : YourProjectName_autogen/mocs_compilation.cpp.s
+
+inputdialog.o: inputdialog.cpp.o
+.PHONY : inputdialog.o
+
+# target to build an object file
+inputdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/inputdialog.cpp.o
+.PHONY : inputdialog.cpp.o
+
+inputdialog.i: inputdialog.cpp.i
+.PHONY : inputdialog.i
+
+# target to preprocess a source file
+inputdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/inputdialog.cpp.i
+.PHONY : inputdialog.cpp.i
+
+inputdialog.s: inputdialog.cpp.s
+.PHONY : inputdialog.s
+
+# target to generate assembly for a file
+inputdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/inputdialog.cpp.s
+.PHONY : inputdialog.cpp.s
+
+loginpage.o: loginpage.cpp.o
+.PHONY : loginpage.o
+
+# target to build an object file
+loginpage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/loginpage.cpp.o
+.PHONY : loginpage.cpp.o
+
+loginpage.i: loginpage.cpp.i
+.PHONY : loginpage.i
+
+# target to preprocess a source file
+loginpage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/loginpage.cpp.i
+.PHONY : loginpage.cpp.i
+
+loginpage.s: loginpage.cpp.s
+.PHONY : loginpage.s
+
+# target to generate assembly for a file
+loginpage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/loginpage.cpp.s
+.PHONY : loginpage.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -430,6 +550,30 @@ widgets/LoudnessGain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/LoudnessGain.cpp.s
 .PHONY : widgets/LoudnessGain.cpp.s
 
+widgets/LoudnessGainSingleWidget.o: widgets/LoudnessGainSingleWidget.cpp.o
+.PHONY : widgets/LoudnessGainSingleWidget.o
+
+# target to build an object file
+widgets/LoudnessGainSingleWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/LoudnessGainSingleWidget.cpp.o
+.PHONY : widgets/LoudnessGainSingleWidget.cpp.o
+
+widgets/LoudnessGainSingleWidget.i: widgets/LoudnessGainSingleWidget.cpp.i
+.PHONY : widgets/LoudnessGainSingleWidget.i
+
+# target to preprocess a source file
+widgets/LoudnessGainSingleWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/LoudnessGainSingleWidget.cpp.i
+.PHONY : widgets/LoudnessGainSingleWidget.cpp.i
+
+widgets/LoudnessGainSingleWidget.s: widgets/LoudnessGainSingleWidget.cpp.s
+.PHONY : widgets/LoudnessGainSingleWidget.s
+
+# target to generate assembly for a file
+widgets/LoudnessGainSingleWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/LoudnessGainSingleWidget.cpp.s
+.PHONY : widgets/LoudnessGainSingleWidget.cpp.s
+
 widgets/LoudspeakerFrequencyResponse.o: widgets/LoudspeakerFrequencyResponse.cpp.o
 .PHONY : widgets/LoudspeakerFrequencyResponse.o
 
@@ -478,6 +622,54 @@ widgets/ManualTuning.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/ManualTuning.cpp.s
 .PHONY : widgets/ManualTuning.cpp.s
 
+widgets/movebuttonview.o: widgets/movebuttonview.cpp.o
+.PHONY : widgets/movebuttonview.o
+
+# target to build an object file
+widgets/movebuttonview.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/movebuttonview.cpp.o
+.PHONY : widgets/movebuttonview.cpp.o
+
+widgets/movebuttonview.i: widgets/movebuttonview.cpp.i
+.PHONY : widgets/movebuttonview.i
+
+# target to preprocess a source file
+widgets/movebuttonview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/movebuttonview.cpp.i
+.PHONY : widgets/movebuttonview.cpp.i
+
+widgets/movebuttonview.s: widgets/movebuttonview.cpp.s
+.PHONY : widgets/movebuttonview.s
+
+# target to generate assembly for a file
+widgets/movebuttonview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/movebuttonview.cpp.s
+.PHONY : widgets/movebuttonview.cpp.s
+
+widgets/progress_frame.o: widgets/progress_frame.cpp.o
+.PHONY : widgets/progress_frame.o
+
+# target to build an object file
+widgets/progress_frame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/progress_frame.cpp.o
+.PHONY : widgets/progress_frame.cpp.o
+
+widgets/progress_frame.i: widgets/progress_frame.cpp.i
+.PHONY : widgets/progress_frame.i
+
+# target to preprocess a source file
+widgets/progress_frame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/progress_frame.cpp.i
+.PHONY : widgets/progress_frame.cpp.i
+
+widgets/progress_frame.s: widgets/progress_frame.cpp.s
+.PHONY : widgets/progress_frame.s
+
+# target to generate assembly for a file
+widgets/progress_frame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourProjectName.dir/build.make CMakeFiles/YourProjectName.dir/widgets/progress_frame.cpp.s
+.PHONY : widgets/progress_frame.cpp.s
+
 widgets/qcustomplot.o: widgets/qcustomplot.cpp.o
 .PHONY : widgets/qcustomplot.o
 
@@ -512,12 +704,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... YourProjectName_autogen"
 	@echo "... YourProjectName"
+	@echo "... DatabaseManager.o"
+	@echo "... DatabaseManager.i"
+	@echo "... DatabaseManager.s"
+	@echo "... GlobalHelper.o"
+	@echo "... GlobalHelper.i"
+	@echo "... GlobalHelper.s"
+	@echo "... RenameDialog.o"
+	@echo "... RenameDialog.i"
+	@echo "... RenameDialog.s"
 	@echo "... YourProjectName_autogen/EWIEGA46WW/qrc_icons.o"
 	@echo "... YourProjectName_autogen/EWIEGA46WW/qrc_icons.i"
 	@echo "... YourProjectName_autogen/EWIEGA46WW/qrc_icons.s"
 	@echo "... YourProjectName_autogen/mocs_compilation.o"
 	@echo "... YourProjectName_autogen/mocs_compilation.i"
 	@echo "... YourProjectName_autogen/mocs_compilation.s"
+	@echo "... inputdialog.o"
+	@echo "... inputdialog.i"
+	@echo "... inputdialog.s"
+	@echo "... loginpage.o"
+	@echo "... loginpage.i"
+	@echo "... loginpage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -548,12 +755,21 @@ help:
 	@echo "... widgets/LoudnessGain.o"
 	@echo "... widgets/LoudnessGain.i"
 	@echo "... widgets/LoudnessGain.s"
+	@echo "... widgets/LoudnessGainSingleWidget.o"
+	@echo "... widgets/LoudnessGainSingleWidget.i"
+	@echo "... widgets/LoudnessGainSingleWidget.s"
 	@echo "... widgets/LoudspeakerFrequencyResponse.o"
 	@echo "... widgets/LoudspeakerFrequencyResponse.i"
 	@echo "... widgets/LoudspeakerFrequencyResponse.s"
 	@echo "... widgets/ManualTuning.o"
 	@echo "... widgets/ManualTuning.i"
 	@echo "... widgets/ManualTuning.s"
+	@echo "... widgets/movebuttonview.o"
+	@echo "... widgets/movebuttonview.i"
+	@echo "... widgets/movebuttonview.s"
+	@echo "... widgets/progress_frame.o"
+	@echo "... widgets/progress_frame.i"
+	@echo "... widgets/progress_frame.s"
 	@echo "... widgets/qcustomplot.o"
 	@echo "... widgets/qcustomplot.i"
 	@echo "... widgets/qcustomplot.s"

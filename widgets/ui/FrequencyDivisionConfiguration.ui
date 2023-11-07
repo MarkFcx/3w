@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>693</width>
-    <height>448</height>
+    <width>1699</width>
+    <height>580</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,14 +20,25 @@
    <item>
     <widget class="QFrame" name="frame">
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Plain</enum>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+
+color: #565656;</string>
+        </property>
         <property name="text">
          <string>分频配置</string>
         </property>
@@ -47,7 +58,25 @@
        </spacer>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="addFrequencyDivisionButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	width: 116px;
+	height: 36px;
+
+	background: #EFEFFF;
+	border: 1px solid rgba(61, 61, 252, 0.2);
+	border-radius: 4px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #3D3DFC;
+}</string>
+        </property>
         <property name="text">
          <string>添加分频</string>
         </property>
@@ -57,7 +86,54 @@
     </widget>
    </item>
    <item>
-    <widget class="QFrame" name="frame_2">
+    <widget class="QFrame" name="down_frame">
+     <property name="styleSheet">
+      <string notr="true">QLineEdit,
+QComboBox
+{
+	min-width: 211px;
+	min-height: 30px;
+	max-width: 211px;
+	max-height: 44px;
+
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	border-radius: 3px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+	color: #636468;
+}
+
+QComboBox::drop-down
+{
+    min-width: 14px;
+    min-height: 14px;
+    max-width: 14px;
+    max-height: 14px;
+}
+
+QLabel
+{
+	min-width: 211px;
+	min-height: 44px;
+
+	background: #F9F8F9;
+	border: 0.5px solid #D8D8D8;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #2D2F30;
+
+}</string>
+     </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
      </property>
@@ -86,6 +162,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_2">
            <property name="text">
@@ -97,13 +188,97 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox"/>
+          <widget class="QFrame" name="frame_2">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <widget class="QComboBox" name="comboBox">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_2"/>
+          <widget class="QFrame" name="frame_10">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <item>
+             <widget class="QComboBox" name="comboBox_2">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_3"/>
+          <widget class="QFrame" name="frame_11">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <item>
+             <widget class="QComboBox" name="comboBox_3">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -117,6 +292,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_3">
            <property name="text">
@@ -128,13 +318,97 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_4"/>
+          <widget class="QFrame" name="frame_12">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <item>
+             <widget class="QComboBox" name="comboBox_4">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_5"/>
+          <widget class="QFrame" name="frame_13">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <widget class="QComboBox" name="comboBox_5">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_6"/>
+          <widget class="QFrame" name="frame_14">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_12">
+            <item>
+             <widget class="QComboBox" name="comboBox_6">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -148,6 +422,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_5">
            <property name="text">
@@ -159,13 +448,97 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_10"/>
+          <widget class="QFrame" name="frame_15">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_17">
+            <item>
+             <widget class="QComboBox" name="comboBox_10">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_11"/>
+          <widget class="QFrame" name="frame_16">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <item>
+             <widget class="QComboBox" name="comboBox_11">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_12"/>
+          <widget class="QFrame" name="frame_17">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <item>
+             <widget class="QComboBox" name="comboBox_12">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -179,6 +552,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_6">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_6">
            <property name="text">
@@ -190,13 +578,61 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_13"/>
+          <widget class="QFrame" name="frame_18">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_20">
+            <item>
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="text">
+               <string>870.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_14"/>
+          <widget class="QFrame" name="frame_19">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_19">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_2">
+              <property name="text">
+               <string>870.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_15"/>
+          <widget class="QFrame" name="frame_20">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_18">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_3">
+              <property name="text">
+               <string>870.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -210,6 +646,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_4">
            <property name="text">
@@ -221,13 +672,97 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_7"/>
+          <widget class="QFrame" name="frame_21">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_23">
+            <item>
+             <widget class="QComboBox" name="comboBox_7">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_8"/>
+          <widget class="QFrame" name="frame_22">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_22">
+            <item>
+             <widget class="QComboBox" name="comboBox_8">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_9"/>
+          <widget class="QFrame" name="frame_23">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_21">
+            <item>
+             <widget class="QComboBox" name="comboBox_9">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -241,6 +776,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_7">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_7">
            <property name="text">
@@ -252,13 +802,61 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_16"/>
+          <widget class="QFrame" name="frame_24">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_26">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_4">
+              <property name="text">
+               <string>20000.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_17"/>
+          <widget class="QFrame" name="frame_25">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_25">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_5">
+              <property name="text">
+               <string>20000.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_18"/>
+          <widget class="QFrame" name="frame_26">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_24">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_6">
+              <property name="text">
+               <string>20000.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -272,6 +870,21 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_8">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
          <item>
           <widget class="QLabel" name="label_8">
            <property name="text">
@@ -283,13 +896,97 @@
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_19"/>
+          <widget class="QFrame" name="frame_27">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_29">
+            <item>
+             <widget class="QComboBox" name="comboBox_19">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_20"/>
+          <widget class="QFrame" name="frame_28">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_28">
+            <item>
+             <widget class="QComboBox" name="comboBox_20">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox_21"/>
+          <widget class="QFrame" name="frame_29">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_27">
+            <item>
+             <widget class="QComboBox" name="comboBox_21">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </item>
         </layout>
        </widget>

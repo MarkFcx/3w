@@ -6,28 +6,48 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>667</width>
-    <height>373</height>
+    <width>983</width>
+    <height>568</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Automatic Sound Field Equalization</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#AutomaticSoundFieldEqualization,
+QFrame#top_frame,
+QFrame#down_frame
+{
+	background: #FFFFFF;
+}</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
    <property name="spacing">
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frame">
+    <widget class="QFrame" name="top_frame">
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Plain</enum>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font-family: 'PingFang SC';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+
+color: #565656;
+</string>
+        </property>
         <property name="text">
          <string>声场自动均衡</string>
         </property>
@@ -50,12 +70,12 @@
     </widget>
    </item>
    <item>
-    <widget class="QFrame" name="frame_2">
+    <widget class="QFrame" name="down_frame">
      <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
+      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Plain</enum>
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="1" column="2">
@@ -74,14 +94,92 @@
       <item row="1" column="1">
        <widget class="QFrame" name="frame_3">
         <property name="frameShape">
-         <enum>QFrame::StyledPanel</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <property name="frameShadow">
-         <enum>QFrame::Raised</enum>
+         <enum>QFrame::Plain</enum>
         </property>
         <layout class="QGridLayout" name="gridLayout_2">
-         <item row="1" column="4">
-          <spacer name="horizontalSpacer_5">
+         <property name="verticalSpacing">
+          <number>78</number>
+         </property>
+         <item row="0" column="0" colspan="5">
+          <widget class="QFrame" name="frame_4">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,10,1">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>自动均衡</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="progress_widget" native="true"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="percent_label">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>0%</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="1" column="1">
+          <spacer name="horizontalSpacer_6">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -96,26 +194,53 @@
          <item row="1" column="2">
           <widget class="QFrame" name="frame_5">
            <property name="frameShape">
-            <enum>QFrame::StyledPanel</enum>
+            <enum>QFrame::NoFrame</enum>
            </property>
            <property name="frameShadow">
-            <enum>QFrame::Raised</enum>
+            <enum>QFrame::Plain</enum>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
              <widget class="QFrame" name="frame_6">
+              <property name="styleSheet">
+               <string notr="true">QFrame#frame_6
+{
+	min-width: 240px;
+	min-height: 42px;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(86, 86, 86, 0.2);
+	border-radius: 4px;
+}
+
+QLabel#label_4
+{
+	min-width: 48px;
+	max-width: 48px;
+	max-height: 30px;
+	min-height: 30px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+
+	color: #565656;
+}</string>
+              </property>
               <property name="frameShape">
-               <enum>QFrame::StyledPanel</enum>
+               <enum>QFrame::NoFrame</enum>
               </property>
               <property name="frameShadow">
-               <enum>QFrame::Raised</enum>
+               <enum>QFrame::Plain</enum>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_3">
                <property name="spacing">
                 <number>0</number>
                </property>
                <property name="leftMargin">
-                <number>0</number>
+                <number>20</number>
                </property>
                <property name="topMargin">
                 <number>0</number>
@@ -144,7 +269,25 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton">
+             <widget class="QPushButton" name="cancelButton">
+              <property name="styleSheet">
+               <string notr="true">QPushButton
+{
+	width: 100px;
+	height: 42px;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(86, 86, 86, 0.2);
+	border-radius: 4px;
+
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #565656;
+}</string>
+              </property>
               <property name="text">
                <string>取消</string>
               </property>
@@ -153,41 +296,8 @@
            </layout>
           </widget>
          </item>
-         <item row="0" column="0" colspan="5">
-          <widget class="QFrame" name="frame_4">
-           <property name="frameShape">
-            <enum>QFrame::StyledPanel</enum>
-           </property>
-           <property name="frameShadow">
-            <enum>QFrame::Raised</enum>
-           </property>
-           <layout class="QHBoxLayout" name="horizontalLayout_2">
-            <item>
-             <widget class="QLabel" name="label_2">
-              <property name="text">
-               <string>自动均衡</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QProgressBar" name="progressBar">
-              <property name="value">
-               <number>24</number>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="label_3">
-              <property name="text">
-               <string>48%</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <spacer name="horizontalSpacer_6">
+         <item row="1" column="4">
+          <spacer name="horizontalSpacer_5">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -212,18 +322,15 @@
            </property>
           </spacer>
          </item>
-         <item row="1" column="3">
-          <spacer name="horizontalSpacer_7">
+         <item row="2" column="2">
+          <widget class="QSlider" name="test_slider">
+           <property name="maximum">
+            <number>100</number>
+           </property>
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
+          </widget>
          </item>
         </layout>
        </widget>

@@ -6,16 +6,159 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>660</width>
-    <height>446</height>
+    <width>1235</width>
+    <height>693</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>ChannelRouting</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame#topFrame,
+QFrame#bottomFrame
+{
+	background: rgb(250, 250, 250);
+}
+
+QLabel#label 
+{
+	font-size: 18px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    line-height: 32px;
+}</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
    <item>
-    <widget class="QTableWidget" name="tableWidget"/>
+    <widget class="QFrame" name="topFrame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+	font-family: 'PingFang SC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 30px;
+	color: #565656;
+}</string>
+        </property>
+        <property name="text">
+         <string>通道路由</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="bottomFrame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QTableWidget" name="channelRoutingTable">
+        <property name="styleSheet">
+         <string notr="true">QHeaderView::section 
+{
+    background-color: rgb(249, 248, 249);
+    padding: 4px;
+    font-size: 14pt;
+	border: 1px solid rgb(240, 240, 240);
+	
+	selection-background-color: rgb(249, 248, 249);
+}
+
+QTableView::item:selected
+{
+	selection-background-color: rgb(226, 255, 255);
+
+    font-size: 12px;
+    
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    line-height: 32px;
+}
+
+QTableView::item:focus{
+	color: #333333;
+}</string>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::MultiSelection</enum>
+        </property>
+        <property name="rowCount">
+         <number>2</number>
+        </property>
+        <property name="columnCount">
+         <number>2</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>30</number>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>新建列</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>新建列</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
    </item>
   </layout>
  </widget>

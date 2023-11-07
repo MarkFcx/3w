@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jianjia/GitProject/qt_project
+CMAKE_SOURCE_DIR = /Users/fcx/GitProjects/3w
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jianjia/GitProject/qt_project/build
+CMAKE_BINARY_DIR = /Users/fcx/GitProjects/3w/build
 
 # Utility rule file for YourProjectName_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/YourProjectName_autogen.dir/compiler_depend.make
 include CMakeFiles/YourProjectName_autogen.dir/progress.make
 
 CMakeFiles/YourProjectName_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jianjia/GitProject/qt_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target YourProjectName"
-	/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_autogen /Users/jianjia/GitProject/qt_project/build/CMakeFiles/YourProjectName_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/fcx/GitProjects/3w/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target YourProjectName"
+	/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_autogen /Users/fcx/GitProjects/3w/build/CMakeFiles/YourProjectName_autogen.dir/AutogenInfo.json ""
 
 YourProjectName_autogen: CMakeFiles/YourProjectName_autogen
 YourProjectName_autogen: CMakeFiles/YourProjectName_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/YourProjectName_autogen.dir/clean:
 .PHONY : CMakeFiles/YourProjectName_autogen.dir/clean
 
 CMakeFiles/YourProjectName_autogen.dir/depend:
-	cd /Users/jianjia/GitProject/qt_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jianjia/GitProject/qt_project /Users/jianjia/GitProject/qt_project /Users/jianjia/GitProject/qt_project/build /Users/jianjia/GitProject/qt_project/build /Users/jianjia/GitProject/qt_project/build/CMakeFiles/YourProjectName_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/fcx/GitProjects/3w/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fcx/GitProjects/3w /Users/fcx/GitProjects/3w /Users/fcx/GitProjects/3w/build /Users/fcx/GitProjects/3w/build /Users/fcx/GitProjects/3w/build/CMakeFiles/YourProjectName_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/YourProjectName_autogen.dir/depend
 
